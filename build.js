@@ -1218,15 +1218,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var pages__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! pages */ "./src/pages/index.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var assets_fonts_AppleSDGothicNeoL_woff2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! assets/fonts/AppleSDGothicNeoL.woff2 */ "./src/assets/fonts/AppleSDGothicNeoL.woff2");
-/* harmony import */ var assets_fonts_SCDream3_woff2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! assets/fonts/SCDream3.woff2 */ "./src/assets/fonts/SCDream3.woff2");
-/* harmony import */ var assets_fonts_KCC_eunyoung_woff2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! assets/fonts/KCC-eunyoung.woff2 */ "./src/assets/fonts/KCC-eunyoung.woff2");
-/* harmony import */ var assets_fonts_samlipOutline_woff2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! assets/fonts/samlipOutline.woff2 */ "./src/assets/fonts/samlipOutline.woff2");
-/* harmony import */ var assets_fonts_NanumSquareEB_woff2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! assets/fonts/NanumSquareEB.woff2 */ "./src/assets/fonts/NanumSquareEB.woff2");
-/* harmony import */ var assets_fonts_NanumSquareL_woff2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! assets/fonts/NanumSquareL.woff2 */ "./src/assets/fonts/NanumSquareL.woff2");
-/* harmony import */ var assets_fonts_NEXON_Lv1_Gothic_OTF_Bold_woff__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! assets/fonts/NEXON Lv1 Gothic OTF Bold.woff */ "./src/assets/fonts/NEXON Lv1 Gothic OTF Bold.woff");
-/* harmony import */ var assets_fonts_NEXON_Lv1_Gothic_OTF_Light_woff__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! assets/fonts/NEXON Lv1 Gothic OTF Light.woff */ "./src/assets/fonts/NEXON Lv1 Gothic OTF Light.woff");
-/* harmony import */ var assets_fonts_NEXON_Lv1_Gothic_OTF_woff__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! assets/fonts/NEXON Lv1 Gothic OTF.woff */ "./src/assets/fonts/NEXON Lv1 Gothic OTF.woff");
+/* harmony import */ var _fonts_AppleSDGothicNeoL_woff2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fonts/AppleSDGothicNeoL.woff2 */ "./src/assets/fonts/AppleSDGothicNeoL.woff2");
+/* harmony import */ var _fonts_SCDream3_woff2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fonts/SCDream3.woff2 */ "./src/assets/fonts/SCDream3.woff2");
+/* harmony import */ var _fonts_KCC_eunyoung_woff2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fonts/KCC-eunyoung.woff2 */ "./src/assets/fonts/KCC-eunyoung.woff2");
+/* harmony import */ var _fonts_samlipOutline_woff2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @fonts/samlipOutline.woff2 */ "./src/assets/fonts/samlipOutline.woff2");
+/* harmony import */ var _fonts_NanumSquareEB_woff2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @fonts/NanumSquareEB.woff2 */ "./src/assets/fonts/NanumSquareEB.woff2");
+/* harmony import */ var _fonts_NanumSquareL_woff2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @fonts/NanumSquareL.woff2 */ "./src/assets/fonts/NanumSquareL.woff2");
+/* harmony import */ var _fonts_NEXONBold_woff__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @fonts/NEXONBold.woff */ "./src/assets/fonts/NEXONBold.woff");
+/* harmony import */ var _fonts_NEXONLight_woff__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @fonts/NEXONLight.woff */ "./src/assets/fonts/NEXONLight.woff");
+/* harmony import */ var _fonts_NEXON_woff__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @fonts/NEXON.woff */ "./src/assets/fonts/NEXON.woff");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* module decorator */ module = __webpack_require__.hmd(module);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
@@ -1257,7 +1257,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 
 
 
-var GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_12__.createGlobalStyle)(["@font-face{font-family:'Apple';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NanumSquareB';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NanumSquareL';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NexonB';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NexonL';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NexonR';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'SCDream';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'Kcc';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'Samlip';font-style:normal;src:url(", ") format('woff2');}body,textarea,input,button,a{-webkit-font-smoothing:antialiased;font-family:'Apple',sans-serif !important;margin:0;}body{height:100vh;overflow:hidden;}a{text-decoration:none;}"], assets_fonts_AppleSDGothicNeoL_woff2__WEBPACK_IMPORTED_MODULE_2__, assets_fonts_NanumSquareEB_woff2__WEBPACK_IMPORTED_MODULE_6__, assets_fonts_NanumSquareL_woff2__WEBPACK_IMPORTED_MODULE_7__, assets_fonts_NEXON_Lv1_Gothic_OTF_Bold_woff__WEBPACK_IMPORTED_MODULE_8__, assets_fonts_NEXON_Lv1_Gothic_OTF_Light_woff__WEBPACK_IMPORTED_MODULE_9__, assets_fonts_NEXON_Lv1_Gothic_OTF_woff__WEBPACK_IMPORTED_MODULE_10__, assets_fonts_SCDream3_woff2__WEBPACK_IMPORTED_MODULE_3__, assets_fonts_KCC_eunyoung_woff2__WEBPACK_IMPORTED_MODULE_4__, assets_fonts_samlipOutline_woff2__WEBPACK_IMPORTED_MODULE_5__);
+var GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_12__.createGlobalStyle)(["@font-face{font-family:'Apple';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NanumSquareB';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NanumSquareL';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NexonB';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NexonL';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NexonR';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'SCDream';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'Kcc';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'Samlip';font-style:normal;src:url(", ") format('woff2');}body,textarea,input,button,a{-webkit-font-smoothing:antialiased;font-family:'Apple',sans-serif !important;margin:0;}body{height:100vh;overflow:hidden;}a{text-decoration:none;}"], _fonts_AppleSDGothicNeoL_woff2__WEBPACK_IMPORTED_MODULE_2__, _fonts_NanumSquareEB_woff2__WEBPACK_IMPORTED_MODULE_6__, _fonts_NanumSquareL_woff2__WEBPACK_IMPORTED_MODULE_7__, _fonts_NEXONBold_woff__WEBPACK_IMPORTED_MODULE_8__, _fonts_NEXONLight_woff__WEBPACK_IMPORTED_MODULE_9__, _fonts_NEXON_woff__WEBPACK_IMPORTED_MODULE_10__, _fonts_SCDream3_woff2__WEBPACK_IMPORTED_MODULE_3__, _fonts_KCC_eunyoung_woff2__WEBPACK_IMPORTED_MODULE_4__, _fonts_samlipOutline_woff2__WEBPACK_IMPORTED_MODULE_5__);
 
 var App = function App() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.Fragment, {
@@ -1458,7 +1458,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var FourthStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].section.withConfig({
   displayName: "Fourth__FourthStyle",
   componentId: "sc-1hft9b9-0"
-})(["display:flex;justify-content:center;align-items:center;width:100%;height:100vh;background-color:rgba(0,0,0,0.8);.container{width:70%;height:100%;display:flex;flex-direction:column;justify-content:center;div{display:flex;flex-direction:column;#title{font-size:3rem;color:white;font-weight:bold;}.project__all{display:flex;align-items:center;width:100%;height:250px;justify-content:space-between;padding:0;.project{display:flex;flex-direction:column;justify-content:center;align-items:center;width:250px;min-width:250px;height:250px;border-radius:100%;transition:all 1s ease-in-out;opacity:", ";}p{font-family:'Samlip',sans-serif;display:flex;justify-content:center;min-width:270px;margin:5px;font-size:2rem;font-weight:bold;:nth-child(1){font-size:0.9rem;}}.hugus{background-color:#ffe6c5;transition-delay:", ";p{color:#ffa800;}}.quiz{background-color:#ffe0e4;transition-delay:", ";p{color:#f56a7a;}}.ru{background-color:#deefff;transition-delay:", ";p{color:#0091ff;}}}#more{margin-top:50px;align-self:flex-end;cursor:pointer;border:none;color:white;font-size:1rem;}}}.background{position:absolute;width:100%;height:100vh;transform:", ";background-position:center;background-repeat:no-repeat;background-size:cover;transition:transform 5s cubic-bezier(0.46,0.03,0.52,0.96);z-index:-3;}@media (max-width:1100px){.container{align-items:center;div{#title{font-size:2.5rem;}.project__all{flex-direction:column;height:330px;.project{width:350px;height:100px;min-height:100px;border-radius:10px;transition:all 0s;p{font-size:1.6rem;:nth-child(1){font-size:0.8rem;}}}}#more{margin-top:30px;font-size:0.8rem;}}}}@media (max-width:500px){.container{div{#title{font-size:1.5rem;}.project__all{height:330px;.project{width:230px;min-width:230px;p{font-size:1.3rem;:nth-child(1){font-size:10px;}}}}#more{font-size:10px;margin-top:10px;}}}}"], function (props) {
+})(["display:flex;justify-content:center;align-items:center;width:100%;height:100vh;background-color:rgba(0,0,0,0.8);.container{width:70%;height:100%;display:flex;flex-direction:column;justify-content:center;div{display:flex;flex-direction:column;#title{font-size:3rem;color:white;font-weight:bold;}.project__all{display:flex;align-items:center;width:100%;height:250px;justify-content:space-between;padding:0;.project{display:flex;flex-direction:column;justify-content:center;align-items:center;width:250px;min-width:250px;height:250px;border-radius:100%;transition:all 1s ease-in-out;opacity:", ";}p{font-family:'Samlip',sans-serif !important;display:flex;justify-content:center;min-width:270px;margin:5px;font-size:2rem;font-weight:bold;:nth-child(1){font-size:0.9rem;}}.hugus{background-color:#ffe6c5;transition-delay:", ";p{color:#ffa800;}}.quiz{background-color:#ffe0e4;transition-delay:", ";p{color:#f56a7a;}}.ru{background-color:#deefff;transition-delay:", ";p{color:#0091ff;}}}#more{margin-top:50px;align-self:flex-end;cursor:pointer;border:none;color:white;font-size:1rem;}}}.background{position:absolute;width:100%;height:100vh;transform:", ";background-position:center;background-repeat:no-repeat;background-size:cover;transition:transform 5s cubic-bezier(0.46,0.03,0.52,0.96);z-index:-3;}@media (max-width:1100px){.container{align-items:center;div{#title{font-size:2.5rem;}.project__all{flex-direction:column;height:330px;.project{width:350px;height:100px;min-height:100px;border-radius:10px;transition:all 0s;p{font-size:1.6rem;:nth-child(1){font-size:0.8rem;}}}}#more{margin-top:30px;font-size:0.8rem;}}}}@media (max-width:500px){.container{div{#title{font-size:1.5rem;}.project__all{height:330px;.project{width:230px;min-width:230px;p{font-size:1.3rem;:nth-child(1){font-size:10px;}}}}#more{font-size:10px;margin-top:10px;}}}}"], function (props) {
   return props.spin === 3 ? '1' : '0';
 }, function (props) {
   return props.spin === 3 ? '0.4s' : '0s';
@@ -2019,7 +2019,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var HugusStyle = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].article.withConfig({
   displayName: "Hugus__HugusStyle",
   componentId: "sc-eo6t8b-0"
-})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:400px;}p{color:#ffb73f;font-size:2.5rem;font-family:Kcc,sans-serif;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{width:250px;}p{font-size:1.5rem;}}}"]);
+})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:400px;}p{color:#ffb73f;font-size:2.5rem;font-family:Kcc,sans-serif !important;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{width:250px;}p{font-size:1.5rem;}}}"]);
 
 var Hugus = function Hugus() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
@@ -3358,7 +3358,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var RUStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].article.withConfig({
   displayName: "RU__RUStyle",
   componentId: "sc-1fydjdl-0"
-})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:250px;}p{margin-top:50px;color:#68b8f5;font-size:2.5rem;font-family:Kcc,sans-serif;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{width:250px;}p{font-size:1.5rem;}}}"]);
+})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:250px;}p{margin-top:50px;color:#68b8f5;font-size:2.5rem;font-family:Kcc,sans-serif !important;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{margin-top:30px;width:160px;}p{margin-top:30px;font-size:1.5rem;}}}"]);
 
 var RU = function RU() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(RUStyle, {
@@ -3463,7 +3463,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var TheQuizLiveStyle = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].article.withConfig({
   displayName: "TheQuizLive__TheQuizLiveStyle",
   componentId: "sc-jn4xxs-0"
-})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:250px;}p{color:#ec6375;font-size:2.5rem;font-family:Kcc,sans-serif;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{width:250px;}p{font-size:1.5rem;}}}"]);
+})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:250px;}p{color:#ec6375;font-size:2.5rem;font-family:Kcc,sans-serif !important;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{width:250px;}p{font-size:1.5rem;}}}"]);
 
 var TheQuizLive = function TheQuizLive() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
@@ -4587,7 +4587,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var CopyrightStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "Copyright__CopyrightStyle",
   componentId: "sc-jqof16-0"
-})(["position:fixed;margin:40px 80px;width:100%;bottom:0;left:0;z-index:1;p{color:#ffffff;font-size:0.8rem;margin:0;}@media (max-width:1100px){margin:0;left:-100px;min-width:1100px;transform:rotate(90deg) translate(400px,420px) !important;p{font-size:10px;}}@media (max-width:500px){margin:0;left:0;min-width:500px;transform:rotate(90deg) translate(60px,230px) !important;p{font-size:10px;transform:scale(0.7);-webkit-transform:scale(0.7);}}"]);
+})(["position:fixed;margin:40px 80px;width:100%;bottom:0;left:0;z-index:1;p{color:#ffffff;font-size:0.8rem;margin:0;}@media (max-width:1100px){margin:0;left:-100px;min-width:1100px;transform:rotate(90deg) translate(400px,420px) !important;p{font-size:10px;}}@media (max-width:500px){margin:0;left:0;min-width:500px;transform:rotate(90deg) translate(80px,230px) !important;p{font-size:9px;transform:scale(0.7);-webkit-transform:scale(0.7);}}"]);
 
 var Copyright = function Copyright() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(CopyrightStyle, {
@@ -5359,7 +5359,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var ProjectsStyle = styled_components__WEBPACK_IMPORTED_MODULE_13__["default"].section.withConfig({
   displayName: "Projects__ProjectsStyle",
   componentId: "sc-1xvbc9u-0"
-})(["display:flex;flex-direction:column;align-items:center;min-height:100vh;padding-top:120px;background-color:black;.container{position:fixed;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background-color:rgb(17,17,19);transition:all 1s ease-in-out;transform:translateY(", ");.list{display:grid;grid-template-columns:1fr 1fr 1fr;height:80px;margin:0;padding:0;width:50%;transition:all 1s ease-in-out;li{color:white;list-style:none;justify-self:center;align-self:center;button{font-size:30px;background:none;border:none;color:white;cursor:pointer;font-weight:bolder;line-height:50px;transition:all 0.3s ease-in-out;span{color:white;opacity:0.3;font-size:20px;}:hover{color:mediumpurple;span{opacity:1;}}}#hugus{", ";}#quiz{", ";}#ru{", ";}}}.bar{width:50%;display:grid;grid-template-columns:1fr 1fr 1fr;div{transition:opacity 0.7s ease-in-out;width:70%;justify-self:center;height:2px;}#hugus{opacity:", ";background-color:#ffa500;}#quiz{opacity:", ";background-color:#ec6375;}#ru{opacity:", ";background-color:#68b8f5;}}}@media (max-width:1200px){.container{.list{width:80%;}.bar{width:80%;}}}@media (max-width:600px){.container{.list{width:100%;height:60px;li{button{font-size:25px;span{font-size:15px;}}}}.bar{width:100%;div{width:80%;height:1px;}}}}"], function (props) {
+})(["display:flex;flex-direction:column;align-items:center;min-height:100vh;padding-top:120px;background-color:black;.container{position:fixed;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;backdrop-filter:blur(8px);background-color:transparent;transition:all 0.5s ease-in-out;transform:translateY(", ");.list{display:grid;grid-template-columns:1fr 1fr 1fr;height:80px;margin:0;padding:0;width:50%;transition:all 1s ease-in-out;li{color:white;list-style:none;justify-self:center;align-self:center;button{font-size:30px;background:none;border:none;color:white;cursor:pointer;font-weight:bolder;line-height:50px;transition:all 0.3s ease-in-out;span{color:white;opacity:0.3;font-size:20px;}:hover{color:mediumpurple;span{opacity:1;}}}#hugus{", ";}#quiz{", ";}#ru{", ";}}}.bar{width:50%;display:grid;grid-template-columns:1fr 1fr 1fr;div{transition:opacity 0.7s ease-in-out;width:70%;justify-self:center;height:2px;}#hugus{opacity:", ";background-color:#ffa500;}#quiz{opacity:", ";background-color:#ec6375;}#ru{opacity:", ";background-color:#68b8f5;}}}@media (max-width:1200px){.container{.list{width:80%;}.bar{width:80%;}}}@media (max-width:600px){.container{.list{width:100%;height:60px;li{button{font-size:25px;span{font-size:15px;}}}}.bar{width:100%;div{width:80%;height:1px;}}}}"], function (props) {
   return props.scroll || props.touch ? '-100px' : '0px';
 }, function (props) {
   return props.type === 'hugus' && 'color:#ffa500;span{opacity:1}';
@@ -5386,10 +5386,15 @@ var Projects = function Projects() {
       scroll = _useState4[0],
       setScroll = _useState4[1];
 
-  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_10__.useState)(false),
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_10__.useState)(0),
       _useState6 = _slicedToArray(_useState5, 2),
       touch = _useState6[0],
       setTouch = _useState6[1];
+
+  var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_10__.useState)(false),
+      _useState8 = _slicedToArray(_useState7, 2),
+      touchUp = _useState8[0],
+      setTouchUp = _useState8[1];
 
   var wheelEvent = function wheelEvent(e) {
     if (e.deltaY > 0) {
@@ -5402,11 +5407,16 @@ var Projects = function Projects() {
   var touchEvent = function touchEvent(e) {
     switch (e.type) {
       case 'touchstart':
-        setTouch(true);
+        setTouch(e.touches[0].clientY);
         break;
 
       case 'touchend':
-        setTouch(false);
+        if (e.changedTouches[0].clientY < touch) {
+          setTouchUp(true);
+        } else {
+          setTouchUp(false);
+        }
+
         break;
     }
   };
@@ -5436,7 +5446,7 @@ var Projects = function Projects() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsxs)(ProjectsStyle, {
     onWheel: wheelEvent,
     scroll: scroll,
-    touch: touch,
+    touch: touchUp,
     type: type,
     onTouchStart: touchEvent,
     onTouchEnd: touchEvent,
@@ -5489,7 +5499,7 @@ var Projects = function Projects() {
   });
 };
 
-__signature__(Projects, "useState{[type, setType]('hugus')}\nuseState{[scroll, setScroll](false)}\nuseState{[touch, setTouch](false)}\nuseCallback{Project}\nuseEffect{}");
+__signature__(Projects, "useState{[type, setType]('hugus')}\nuseState{[scroll, setScroll](false)}\nuseState{[touch,setTouch](0)}\nuseState{[touchUp, setTouchUp](false)}\nuseCallback{Project}\nuseEffect{}");
 
 var _default = Projects;
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_default);
@@ -49680,10 +49690,21 @@ module.exports = __webpack_require__.p + "assets/e5156e1c2dea8778bb0d.woff2";
 
 /***/ }),
 
-/***/ "./src/assets/fonts/NEXON Lv1 Gothic OTF Bold.woff":
-/*!*********************************************************!*\
-  !*** ./src/assets/fonts/NEXON Lv1 Gothic OTF Bold.woff ***!
-  \*********************************************************/
+/***/ "./src/assets/fonts/NEXON.woff":
+/*!*************************************!*\
+  !*** ./src/assets/fonts/NEXON.woff ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/eb1217e4bc7f9fe24aac.woff";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/NEXONBold.woff":
+/*!*****************************************!*\
+  !*** ./src/assets/fonts/NEXONBold.woff ***!
+  \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -49691,25 +49712,14 @@ module.exports = __webpack_require__.p + "assets/fea89342b1b0f7a386b6.woff";
 
 /***/ }),
 
-/***/ "./src/assets/fonts/NEXON Lv1 Gothic OTF Light.woff":
-/*!**********************************************************!*\
-  !*** ./src/assets/fonts/NEXON Lv1 Gothic OTF Light.woff ***!
-  \**********************************************************/
+/***/ "./src/assets/fonts/NEXONLight.woff":
+/*!******************************************!*\
+  !*** ./src/assets/fonts/NEXONLight.woff ***!
+  \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 module.exports = __webpack_require__.p + "assets/846c9b6d2062d0b807c1.woff";
-
-/***/ }),
-
-/***/ "./src/assets/fonts/NEXON Lv1 Gothic OTF.woff":
-/*!****************************************************!*\
-  !*** ./src/assets/fonts/NEXON Lv1 Gothic OTF.woff ***!
-  \****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "assets/eb1217e4bc7f9fe24aac.woff";
 
 /***/ }),
 
