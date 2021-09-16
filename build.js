@@ -1458,7 +1458,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var FourthStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].section.withConfig({
   displayName: "Fourth__FourthStyle",
   componentId: "sc-1hft9b9-0"
-})(["display:flex;justify-content:center;align-items:center;width:100%;height:100vh;background-color:rgba(0,0,0,0.8);.container{width:70%;height:100%;display:flex;flex-direction:column;justify-content:center;div{display:flex;flex-direction:column;#title{font-size:3rem;color:white;font-weight:bold;}.project__all{display:flex;align-items:center;width:100%;height:250px;justify-content:space-between;padding:0;.project{display:flex;flex-direction:column;justify-content:center;align-items:center;width:250px;min-width:250px;height:250px;border-radius:100%;transition:all 1s ease-in-out;opacity:", ";}p{display:flex;justify-content:center;min-width:270px;margin:5px;font-size:2rem;font-weight:bold;:nth-child(1){font-size:1rem;}}.hugus{background-color:#aecbd9;transition-delay:", ";p{color:#3948b1;}}.quiz{background-color:#e2f4de;transition-delay:", ";p{color:#50976a;}}.ru{background-color:#ff9e9d;transition-delay:", ";p{color:#da463c;}}}#more{margin-top:50px;align-self:flex-end;cursor:pointer;border:none;color:white;font-size:1rem;}}}.background{position:absolute;width:100%;height:100vh;transform:", ";background-position:center;background-repeat:no-repeat;background-size:cover;transition:transform 5s cubic-bezier(0.46,0.03,0.52,0.96);z-index:-3;}@media (max-width:1100px){.container{align-items:center;div{#title{font-size:2.5rem;}.project__all{flex-direction:column;height:330px;.project{width:350px;height:100px;min-height:100px;border-radius:10px;transition:all 0s;p{font-size:1.6rem;:nth-child(1){font-size:0.8rem;}}}}#more{margin-top:30px;font-size:0.8rem;}}}}@media (max-width:500px){.container{div{#title{font-size:1.5rem;}.project__all{height:330px;.project{width:230px;min-width:230px;p{font-size:1.3rem;:nth-child(1){font-size:10px;}}}}#more{font-size:10px;margin-top:10px;}}}}"], function (props) {
+})(["display:flex;justify-content:center;align-items:center;width:100%;height:100vh;background-color:rgba(0,0,0,0.8);.container{width:70%;height:100%;display:flex;flex-direction:column;justify-content:center;div{display:flex;flex-direction:column;#title{font-size:3rem;color:white;font-weight:bold;}.project__all{display:flex;align-items:center;width:100%;height:250px;justify-content:space-between;padding:0;.project{display:flex;flex-direction:column;justify-content:center;align-items:center;width:250px;min-width:250px;height:250px;border-radius:100%;transition:all 1s ease-in-out;opacity:", ";}p{font-family:'Samlip',sans-serif;display:flex;justify-content:center;min-width:270px;margin:5px;font-size:2rem;font-weight:bold;:nth-child(1){font-size:0.9rem;}}.hugus{background-color:#ffe6c5;transition-delay:", ";p{color:#ffa800;}}.quiz{background-color:#ffe0e4;transition-delay:", ";p{color:#f56a7a;}}.ru{background-color:#deefff;transition-delay:", ";p{color:#0091ff;}}}#more{margin-top:50px;align-self:flex-end;cursor:pointer;border:none;color:white;font-size:1rem;}}}.background{position:absolute;width:100%;height:100vh;transform:", ";background-position:center;background-repeat:no-repeat;background-size:cover;transition:transform 5s cubic-bezier(0.46,0.03,0.52,0.96);z-index:-3;}@media (max-width:1100px){.container{align-items:center;div{#title{font-size:2.5rem;}.project__all{flex-direction:column;height:330px;.project{width:350px;height:100px;min-height:100px;border-radius:10px;transition:all 0s;p{font-size:1.6rem;:nth-child(1){font-size:0.8rem;}}}}#more{margin-top:30px;font-size:0.8rem;}}}}@media (max-width:500px){.container{div{#title{font-size:1.5rem;}.project__all{height:330px;.project{width:230px;min-width:230px;p{font-size:1.3rem;:nth-child(1){font-size:10px;}}}}#more{font-size:10px;margin-top:10px;}}}}"], function (props) {
   return props.spin === 3 ? '1' : '0';
 }, function (props) {
   return props.spin === 3 ? '0.4s' : '0s';
@@ -2019,7 +2019,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var HugusStyle = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].article.withConfig({
   displayName: "Hugus__HugusStyle",
   componentId: "sc-eo6t8b-0"
-})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:400px;}p{color:#ffb73f;font-size:2.5rem;font-family:Kcc;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{width:250px;}p{font-size:1.5rem;}}}"]);
+})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:400px;}p{color:#ffb73f;font-size:2.5rem;font-family:Kcc,sans-serif;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{width:250px;}p{font-size:1.5rem;}}}"]);
 
 var Hugus = function Hugus() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
@@ -2030,7 +2030,8 @@ var Hugus = function Hugus() {
       className: "intro",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("img", {
         className: "logo",
-        src: _images_hugus_png__WEBPACK_IMPORTED_MODULE_9__
+        src: _images_hugus_png__WEBPACK_IMPORTED_MODULE_9__,
+        alt: "HugusLogo"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("p", {
         children: "\"\uD5C8\uADF8\uC5B4\uC2A4, \uAE30\uBD80\uBB38\uD654\uC758 \uC0C8\uB85C\uC6B4 \uBC29\uD5A5\uC744 \uC81C\uC2DC\uD558\uB2E4\""
       })]
@@ -2455,7 +2456,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var GoalStyle = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].div.withConfig({
   displayName: "Goal__GoalStyle",
   componentId: "sc-1j5yj2s-0"
-})(["width:100%;display:flex;justify-content:center;.bar{}.item{margin:70px;width:50%;display:grid;grid-template-columns:1fr 5fr;background-color:transparent;min-width:800px;.num{margin:0;}.detail{display:flex;flex-direction:column;ul{padding:0;margin:0;}#head{font-size:1.2rem;p{margin-top:5px;font-size:0.8rem;}}#body{margin-top:50px;display:flex;justify-content:space-around;li{list-style:none;display:flex;flex-direction:column;align-items:center;img{width:100px;color:white;margin-bottom:20px;}p:nth-child(2){font-size:13px;margin-bottom:0;}p:nth-child(3){font-weight:bold;}}}#summary{border:dashed 2px #ffa500;margin-top:50px;height:250px;border-radius:5px;padding-top:10px;padding-left:50px;padding-right:50px;display:flex;flex-direction:column;justify-content:center;p:nth-child(1){font-size:1.5rem;font-weight:bold;margin-top:0;}p:nth-child(2){line-height:25px;}}}}@media (max-width:900px){width:80%;.item{min-width:570px;.detail{#body{flex-direction:column;align-items:center;li{width:250px;margin-bottom:50px;img{width:100px;margin-bottom:20px;}p:nth-child(2){font-size:13px;margin-bottom:0;}p:nth-child(3){font-weight:bold;}}}#summary{height:250px;p:nth-child(1){font-size:1.3rem;}p:nth-child(2){line-height:25px;font-size:13px;}}}}}@media (max-width:600px){width:80%;.item{grid-template-columns:1fr 6fr;min-width:300px;.detail{#head{font-size:1rem;p{margin-top:5px;font-size:12px;}}#body{align-items:flex-start;margin-top:50px;p{font-size:12px;}li{width:200px;img{width:70px;}}}#summary{height:280px;width:160px;padding-top:30px;padding-left:20px;padding-right:20px;padding-bottom:10px;p:nth-child(1){font-size:1rem;}p:nth-child(2){line-height:25px;font-size:12px;}}}}}"]);
+})(["width:100%;display:flex;justify-content:center;.item{margin:70px;width:50%;display:grid;grid-template-columns:1fr 5fr;background-color:transparent;min-width:800px;.num{margin:0;}.detail{display:flex;flex-direction:column;ul{padding:0;margin:0;}#head{font-size:1.2rem;p{margin-top:5px;font-size:0.8rem;}}#body{margin-top:50px;display:flex;justify-content:space-around;li{list-style:none;display:flex;flex-direction:column;align-items:center;img{width:100px;color:white;margin-bottom:20px;}p:nth-child(2){font-size:13px;margin-bottom:0;}p:nth-child(3){font-weight:bold;}}}#summary{border:dashed 2px #ffa500;margin-top:50px;height:250px;border-radius:5px;padding-top:10px;padding-left:50px;padding-right:50px;display:flex;flex-direction:column;justify-content:center;p:nth-child(1){font-size:1.5rem;font-weight:bold;margin-top:0;}p:nth-child(2){line-height:25px;}}}}@media (max-width:900px){width:80%;.item{min-width:570px;.detail{#body{flex-direction:column;align-items:center;li{width:250px;margin-bottom:50px;img{width:100px;margin-bottom:20px;}p:nth-child(2){font-size:13px;margin-bottom:0;}p:nth-child(3){font-weight:bold;}}}#summary{height:250px;p:nth-child(1){font-size:1.3rem;}p:nth-child(2){line-height:25px;font-size:13px;}}}}}@media (max-width:600px){width:80%;.item{grid-template-columns:1fr 6fr;min-width:300px;.detail{#head{font-size:1rem;p{margin-top:5px;font-size:12px;}}#body{align-items:flex-start;margin-top:50px;p{font-size:12px;}li{width:200px;img{width:70px;}}}#summary{height:280px;width:160px;padding-top:20px;padding-left:20px;padding-right:20px;padding-bottom:10px;p:nth-child(1){font-size:1rem;}p:nth-child(2){line-height:25px;font-size:12px;}}}}}"]);
 
 var Goal = function Goal() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(GoalStyle, {
@@ -3335,7 +3336,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _images_RULogo_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @images/RULogo.png */ "./src/assets/images/RULogo.png");
+/* harmony import */ var _images_RULogo3_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @images/RULogo3.png */ "./src/assets/images/RULogo3.png");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* module decorator */ module = __webpack_require__.hmd(module);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
@@ -3357,7 +3358,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var RUStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].article.withConfig({
   displayName: "RU__RUStyle",
   componentId: "sc-1fydjdl-0"
-})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:250px;}p{margin-top:50px;color:#68b8f5;font-size:2.5rem;font-family:Kcc;}}"]);
+})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:250px;}p{margin-top:50px;color:#68b8f5;font-size:2.5rem;font-family:Kcc,sans-serif;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{width:250px;}p{font-size:1.5rem;}}}"]);
 
 var RU = function RU() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(RUStyle, {
@@ -3365,9 +3366,10 @@ var RU = function RU() {
       className: "intro",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
         className: "logo",
-        src: _images_RULogo_png__WEBPACK_IMPORTED_MODULE_0__
+        src: _images_RULogo3_png__WEBPACK_IMPORTED_MODULE_0__,
+        alt: "RULogo"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-        children: "\"\uB098\uB9CC\uC758 NFT \uAE30\uBD80 \uB9C8\uB77C\uD1A4, RU\""
+        children: "\"\uB098\uB9CC\uC758 NFT \uAE30\uBD80 \uB9C8\uB77C\uD1A4\""
       })]
     })
   });
@@ -3461,7 +3463,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var TheQuizLiveStyle = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].article.withConfig({
   displayName: "TheQuizLive__TheQuizLiveStyle",
   componentId: "sc-jn4xxs-0"
-})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:400px;}p{color:#ec6375;font-size:2.5rem;font-family:Kcc;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{width:250px;}p{color:#ec6375;font-size:1.5rem;font-family:Kcc;}}}"]);
+})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:250px;}p{color:#ec6375;font-size:2.5rem;font-family:Kcc,sans-serif;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{width:250px;}p{font-size:1.5rem;}}}"]);
 
 var TheQuizLive = function TheQuizLive() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
@@ -3472,7 +3474,8 @@ var TheQuizLive = function TheQuizLive() {
       className: "intro",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("img", {
         className: "logo",
-        src: _images_theQuizLive3_png__WEBPACK_IMPORTED_MODULE_7__
+        src: _images_theQuizLive3_png__WEBPACK_IMPORTED_MODULE_7__,
+        alt: "TheQuizLiveLogo"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
         children: "\"\uB354 \uC0C8\uB86D\uAC8C, \uB354 \uC7AC\uBBF8\uC788\uAC8C. \uB354 \uD034\uC988 \uB77C\uC774\uBE0C\""
       })]
@@ -3891,7 +3894,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var GoalStyle = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].div.withConfig({
   displayName: "Goal__GoalStyle",
   componentId: "sc-ns87u5-0"
-})(["width:100%;display:flex;justify-content:center;.bar{}.item{margin:70px;width:50%;display:grid;grid-template-columns:1fr 5fr;background-color:transparent;min-width:800px;.num{margin:0;}.detail{display:flex;flex-direction:column;ul{padding:0;margin:0;}#head{font-size:1.2rem;p{margin-top:5px;font-size:0.8rem;}}#body{margin-top:50px;display:flex;justify-content:space-around;li{list-style:none;display:flex;flex-direction:column;align-items:center;img{width:100px;color:white;margin-bottom:20px;}p:nth-child(2){font-size:13px;margin-bottom:0;}p:nth-child(3){font-weight:bold;}}}#summary{border:dashed 2px #ec6375;margin-top:50px;height:250px;border-radius:5px;padding-top:10px;padding-left:50px;padding-right:50px;display:flex;flex-direction:column;justify-content:center;p:nth-child(1){font-size:1.5rem;font-weight:bold;margin-top:0;}p:nth-child(2){line-height:25px;}}}}@media (max-width:900px){width:80%;.item{min-width:570px;.detail{#body{flex-direction:column;align-items:center;li{width:250px;margin-bottom:50px;img{width:100px;margin-bottom:20px;}p:nth-child(2){font-size:13px;margin-bottom:0;}p:nth-child(3){font-weight:bold;}}}#summary{height:250px;p:nth-child(1){font-size:1.3rem;}p:nth-child(2){line-height:25px;font-size:13px;}}}}}@media (max-width:600px){width:80%;.item{grid-template-columns:1fr 6fr;min-width:300px;.detail{#head{font-size:1rem;p{margin-top:5px;font-size:12px;}}#body{align-items:flex-start;margin-top:50px;p{font-size:12px;}li{width:200px;img{width:70px;}}}#summary{height:280px;width:160px;padding-top:30px;padding-left:20px;padding-right:20px;padding-bottom:10px;p:nth-child(1){font-size:1rem;}p:nth-child(2){line-height:25px;font-size:12px;}}}}}"]);
+})(["width:100%;display:flex;justify-content:center;.bar{}.item{margin:70px;width:50%;display:grid;grid-template-columns:1fr 5fr;background-color:transparent;min-width:800px;.num{margin:0;}.detail{display:flex;flex-direction:column;ul{padding:0;margin:0;}#head{font-size:1.2rem;p{margin-top:5px;font-size:0.8rem;}}#body{margin-top:50px;display:flex;justify-content:space-around;li{list-style:none;display:flex;flex-direction:column;align-items:center;img{width:100px;color:white;margin-bottom:20px;}p:nth-child(2){font-size:13px;margin-bottom:0;}p:nth-child(3){font-weight:bold;}}}#summary{border:dashed 2px #ec6375;margin-top:50px;height:250px;border-radius:5px;padding-top:10px;padding-left:50px;padding-right:50px;display:flex;flex-direction:column;justify-content:center;p:nth-child(1){font-size:1.5rem;font-weight:bold;margin-top:0;}p:nth-child(2){line-height:25px;}}}}@media (max-width:900px){width:80%;.item{min-width:570px;.detail{#body{flex-direction:column;align-items:center;li{width:250px;margin-bottom:50px;img{width:100px;margin-bottom:20px;}p:nth-child(2){font-size:13px;margin-bottom:0;}p:nth-child(3){font-weight:bold;}}}#summary{height:250px;p:nth-child(1){font-size:1.3rem;}p:nth-child(2){line-height:25px;font-size:13px;}}}}}@media (max-width:600px){width:80%;.item{grid-template-columns:1fr 6fr;min-width:300px;.detail{#head{font-size:1rem;p{margin-top:5px;font-size:12px;}}#body{align-items:flex-start;margin-top:50px;p{font-size:12px;}li{width:200px;img{width:70px;}}}#summary{height:280px;width:160px;padding-top:20px;padding-left:20px;padding-right:20px;padding-bottom:10px;p:nth-child(1){font-size:1rem;}p:nth-child(2){line-height:25px;font-size:12px;}}}}}"]);
 
 var Goal = function Goal() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(GoalStyle, {
@@ -4647,9 +4650,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
+/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* module decorator */ module = __webpack_require__.hmd(module);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
@@ -4659,6 +4666,9 @@ __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/r
   enterModule && enterModule(module);
 })();
 
+
+
+
 var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
   return a;
 };
@@ -4667,19 +4677,22 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 
 
 
-var HeaderStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].header.withConfig({
+var HeaderStyle = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].header.withConfig({
   displayName: "Header__HeaderStyle",
   componentId: "sc-59o7b9-0"
 })(["position:fixed;padding:40px 80px;width:100%;height:40px;z-index:1;display:flex;align-items:center;a{text-decoration:none;color:white;}#title{font-size:1.7rem;font-weight:bold;}#email{font-size:0.9rem;margin-left:10%;margin-top:10px;}@media (max-width:500px){padding:40px 40px;transition:all 0.5s ease-in-out;#title{font-size:1.2rem;}#email{font-size:10px;}}"]);
 
 var Header = function Header() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(HeaderStyle, {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(HeaderStyle, {
     id: "header",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Link, {
       to: "/",
       id: "title",
+      onClick: function onClick() {
+        return window.location.replace('/');
+      },
       children: "FE.GENI"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
       href: "mailto:preview@ajou.ac.kr",
       id: "email",
       children: "PREVIEW@AJOU.AC.KR"
@@ -4867,6 +4880,7 @@ var Home = function Home() {
   };
 
   (0,react__WEBPACK_IMPORTED_MODULE_10__.useEffect)(function () {
+    document.querySelector('body').style.overflow = 'hidden';
     document.querySelector('#header').style.backgroundColor = 'transparent';
   }, []);
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsxs)(HomeStyle, {
@@ -5093,7 +5107,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var NavStyle = styled_components__WEBPACK_IMPORTED_MODULE_12__["default"].nav.withConfig({
   displayName: "Nav__NavStyle",
   componentId: "sc-1ngi9mr-0"
-})(["position:fixed;width:100%;z-index:1;.nav__btn{display:block;position:absolute;width:35px;height:35px;top:45px;right:7%;background:none;border:none;cursor:pointer;span{position:absolute;width:100%;height:2px;background-color:#fff;border-radius:4px;}span:nth-child(1){top:5px;right:1px;}span:nth-child(2){top:15px;right:1px;}span:nth-child(3){top:25px;right:1px;}}.nav__menu{visibility:", ";position:fixed;display:flex;flex-direction:column;justify-content:center;align-items:center;right:0;width:", ";height:100vh;background-color:#212121;transition:all 1s cubic-bezier(0.55,0.085,0,0.99);transition-delay:", ";.nav__btn{position:absolute;width:35px;height:35px;top:45px;left:10%;background:none;border:none;cursor:pointer;transition-delay:1s;transition:1s ease-in-out;span{transition:all 0.3s ease-in-out;transition-delay:", ";opacity:", ";}span:nth-child(1){", "}span:nth-child(2){", "}span:nth-child(3){", "}}ul{display:flex;flex-direction:column;width:50%;height:40%;list-style:none;padding:0;li{width:100%;transition:all 0.4s ease-in-out;a{font-family:AppleSDGothicNeoEB00;text-decoration:none;text-align:left;font-size:2rem;background:none;color:white;cursor:pointer;-webkit-font-smoothing:antialiased;-webkit-text-fill-color:transparent;-webkit-text-stroke:0.5px white;font-weight:bolder;line-height:5rem;transition:all 0.3s cubic-bezier(0.46,0.03,0.52,0.96);:hover{-webkit-text-stroke:0.5px mediumpurple;-webkit-text-fill-color:mediumpurple;}}:nth-child(1){transform:translateX(", "px);transition-delay:", ";opacity:", ";}:nth-child(2){transform:translateX(", "px);transition-delay:", ";opacity:", ";}:nth-child(3){transform:translateX(", "px);transition-delay:", ";opacity:", ";}}}.sites{display:flex;width:50%;padding-top:200px;button{background:none;border:none;height:50px;cursor:pointer;transform:translateX(", "px);transition:all 0.3s cubic-bezier(0.46,0.03,0.52,0.96);transition-delay:", ";opacity:", ";a{color:lightgray;font-size:1rem;font-weight:900;margin:0 10px;text-decoration:none;}}}}@media (max-width:500px){.nav__btn{width:30px;height:25px;top:45px;right:7%;background:none;border:none;cursor:pointer;span:nth-child(1){top:5px;right:1px;}span:nth-child(2){top:13px;right:1px;}span:nth-child(3){top:21px;right:1px;}}.nav__menu{left:0;width:100%;height:", ";transition:all 1s cubic-bezier(0.55,0.085,0,0.99);-webkit-transition:all 1s cubic-bezier(0.55,0.085,0,0.99);.nav__btn{left:85%;}ul{height:100%;justify-content:center;li{a{font-size:1.5rem;}}}.sites{display:flex;width:50%;padding-top:0px;button{a{font-size:10px;}}}}}"], function (props) {
+})(["position:fixed;width:100%;z-index:1;.nav__btn{display:block;position:absolute;width:35px;height:35px;top:45px;right:7%;background:none;border:none;cursor:pointer;span{position:absolute;width:100%;height:1px;background-color:#fff;border-radius:4px;}span:nth-child(1){top:5px;right:1px;}span:nth-child(2){top:15px;right:1px;}span:nth-child(3){top:25px;right:1px;}}.nav__menu{visibility:", ";position:fixed;display:flex;flex-direction:column;justify-content:center;align-items:center;right:0;width:", ";height:100vh;background-color:#212121;transition:all 1s cubic-bezier(0.55,0.085,0,0.99);transition-delay:", ";.nav__btn{position:absolute;width:35px;height:35px;top:45px;left:10%;background:none;border:none;cursor:pointer;transition-delay:1s;transition:1s ease-in-out;span{transition:all 0.3s ease-in-out;transition-delay:", ";opacity:", ";}span:nth-child(1){", "}span:nth-child(2){", "}span:nth-child(3){", "}}ul{display:flex;flex-direction:column;width:50%;height:40%;list-style:none;padding:0;li{width:100%;transition:all 0.4s ease-in-out;a{font-family:AppleSDGothicNeoEB00;text-decoration:none;text-align:left;font-size:2rem;background:none;color:white;cursor:pointer;-webkit-font-smoothing:antialiased;-webkit-text-fill-color:transparent;-webkit-text-stroke:0.5px white;font-weight:bolder;line-height:5rem;transition:all 0.3s cubic-bezier(0.46,0.03,0.52,0.96);:hover{-webkit-text-stroke:0.5px mediumpurple;-webkit-text-fill-color:mediumpurple;}}:nth-child(1){transform:translateX(", "px);transition-delay:", ";opacity:", ";}:nth-child(2){transform:translateX(", "px);transition-delay:", ";opacity:", ";}:nth-child(3){transform:translateX(", "px);transition-delay:", ";opacity:", ";}}}.sites{display:flex;width:50%;padding-top:200px;button{background:none;border:none;height:50px;cursor:pointer;transform:translateX(", "px);transition:all 0.3s cubic-bezier(0.46,0.03,0.52,0.96);transition-delay:", ";opacity:", ";a{color:lightgray;font-size:1rem;font-weight:900;margin:0 10px;text-decoration:none;}}}}@media (max-width:500px){.nav__btn{width:25px;height:25px;span:nth-child(1){top:8px;right:1px;}span:nth-child(2){top:15px;right:1px;}span:nth-child(3){top:22px;right:1px;}}.nav__menu{left:0;width:100%;height:", ";transition:all 1s cubic-bezier(0.55,0.085,0,0.99);-webkit-transition:all 1s cubic-bezier(0.55,0.085,0,0.99);.nav__btn{width:25px;left:85%;}ul{height:100%;justify-content:center;li{a{font-size:1.7rem;}:nth-child(1){transform:translateY(", "px);transition-delay:", ";opacity:", ";}:nth-child(2){transform:translateY(", "px);transition-delay:", ";opacity:", ";}:nth-child(3){transform:translateY(", "px);transition-delay:", ";opacity:", ";}}}.sites{display:flex;width:50%;padding-top:0px;button{a{font-size:10px;}}}}}"], function (props) {
   return props.open ? 'visible' : 'hidden';
 }, function (props) {
   return props.open ? '500px' : '0';
@@ -5135,6 +5149,24 @@ var NavStyle = styled_components__WEBPACK_IMPORTED_MODULE_12__["default"].nav.wi
   return props.open ? '1' : '0';
 }, function (props) {
   return props.open ? '100vh' : '0';
+}, function (props) {
+  return props.open ? 0 : -100;
+}, function (props) {
+  return props.open ? '0.5s' : '0s';
+}, function (props) {
+  return props.open ? '1' : '0';
+}, function (props) {
+  return props.open ? 0 : -100;
+}, function (props) {
+  return props.open ? '0.65s' : '0s';
+}, function (props) {
+  return props.open ? '1' : '0';
+}, function (props) {
+  return props.open ? 0 : -100;
+}, function (props) {
+  return props.open ? '0.8s' : '0s';
+}, function (props) {
+  return props.open ? '1' : '0';
 });
 
 var Nav = function Nav() {
@@ -5327,8 +5359,8 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var ProjectsStyle = styled_components__WEBPACK_IMPORTED_MODULE_13__["default"].section.withConfig({
   displayName: "Projects__ProjectsStyle",
   componentId: "sc-1xvbc9u-0"
-})(["display:flex;flex-direction:column;align-items:center;min-height:100vh;padding-top:120px;background-color:black;.container{position:fixed;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background-color:rgb(17,17,19);transition:all 1s ease-in-out;transform:translateY(", ");.list{display:grid;grid-template-columns:1fr 1fr 1fr;height:80px;margin:0;padding:0;width:50%;transition:all 1s ease-in-out;li{color:white;list-style:none;justify-self:center;align-self:center;button{font-size:30px;background:none;border:none;color:white;cursor:pointer;font-weight:bolder;line-height:50px;transition:all 0.3s ease-in-out;span{color:white;opacity:0.3;font-size:20px;}:hover{color:mediumpurple;span{opacity:1;}}}#hugus{", ";}#quiz{", ";}#ru{", ";}}}.bar{width:50%;display:grid;grid-template-columns:1fr 1fr 1fr;div{transition:opacity 0.7s ease-in-out;width:70%;justify-self:center;height:2px;}#hugus{opacity:", ";background-color:#ffa500;}#quiz{opacity:", ";background-color:#ec6375;}#ru{opacity:", ";background-color:#68b8f5;}}}@media (max-width:1200px){.container{.list{width:80%;}.bar{width:80%;}}}@media (max-width:600px){.container{.list{width:100%;height:60px;li{button{font-size:25px;span{font-size:15px;}}}}.bar{width:100%;}}}"], function (props) {
-  return props.scroll ? '-100px' : '0px';
+})(["display:flex;flex-direction:column;align-items:center;min-height:100vh;padding-top:120px;background-color:black;.container{position:fixed;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background-color:rgb(17,17,19);transition:all 1s ease-in-out;transform:translateY(", ");.list{display:grid;grid-template-columns:1fr 1fr 1fr;height:80px;margin:0;padding:0;width:50%;transition:all 1s ease-in-out;li{color:white;list-style:none;justify-self:center;align-self:center;button{font-size:30px;background:none;border:none;color:white;cursor:pointer;font-weight:bolder;line-height:50px;transition:all 0.3s ease-in-out;span{color:white;opacity:0.3;font-size:20px;}:hover{color:mediumpurple;span{opacity:1;}}}#hugus{", ";}#quiz{", ";}#ru{", ";}}}.bar{width:50%;display:grid;grid-template-columns:1fr 1fr 1fr;div{transition:opacity 0.7s ease-in-out;width:70%;justify-self:center;height:2px;}#hugus{opacity:", ";background-color:#ffa500;}#quiz{opacity:", ";background-color:#ec6375;}#ru{opacity:", ";background-color:#68b8f5;}}}@media (max-width:1200px){.container{.list{width:80%;}.bar{width:80%;}}}@media (max-width:600px){.container{.list{width:100%;height:60px;li{button{font-size:25px;span{font-size:15px;}}}}.bar{width:100%;div{width:80%;height:1px;}}}}"], function (props) {
+  return props.scroll || props.touch ? '-100px' : '0px';
 }, function (props) {
   return props.type === 'hugus' && 'color:#ffa500;span{opacity:1}';
 }, function (props) {
@@ -5354,6 +5386,11 @@ var Projects = function Projects() {
       scroll = _useState4[0],
       setScroll = _useState4[1];
 
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_10__.useState)(false),
+      _useState6 = _slicedToArray(_useState5, 2),
+      touch = _useState6[0],
+      setTouch = _useState6[1];
+
   var wheelEvent = function wheelEvent(e) {
     if (e.deltaY > 0) {
       setScroll(true);
@@ -5362,24 +5399,33 @@ var Projects = function Projects() {
     }
   };
 
+  var touchEvent = function touchEvent(e) {
+    switch (e.type) {
+      case 'touchstart':
+        setTouch(true);
+        break;
+
+      case 'touchend':
+        setTouch(false);
+        break;
+    }
+  };
+
   var Project = (0,react__WEBPACK_IMPORTED_MODULE_10__.useCallback)(function () {
     switch (type) {
       case 'hugus':
         {
           return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(_components__WEBPACK_IMPORTED_MODULE_11__.Hugus, {});
-          break;
         }
 
       case 'quiz':
         {
           return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(_components__WEBPACK_IMPORTED_MODULE_11__.TheQuizLive, {});
-          break;
         }
 
       case 'ru':
         {
           return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(_components__WEBPACK_IMPORTED_MODULE_11__.RU, {});
-          break;
         }
     }
   }, [type]);
@@ -5390,7 +5436,10 @@ var Projects = function Projects() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsxs)(ProjectsStyle, {
     onWheel: wheelEvent,
     scroll: scroll,
+    touch: touch,
     type: type,
+    onTouchStart: touchEvent,
+    onTouchEnd: touchEvent,
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsxs)("div", {
       className: "container",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsxs)("ul", {
@@ -5440,7 +5489,7 @@ var Projects = function Projects() {
   });
 };
 
-__signature__(Projects, "useState{[type, setType]('hugus')}\nuseState{[scroll, setScroll](false)}\nuseCallback{Project}\nuseEffect{}");
+__signature__(Projects, "useState{[type, setType]('hugus')}\nuseState{[scroll, setScroll](false)}\nuseState{[touch, setTouch](false)}\nuseCallback{Project}\nuseEffect{}");
 
 var _default = Projects;
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_default);
@@ -9521,6 +9570,25 @@ module.exports = function (key) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/advance-string-index.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/internals/advance-string-index.js ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+var charAt = __webpack_require__(/*! ../internals/string-multibyte */ "./node_modules/core-js/internals/string-multibyte.js").charAt;
+
+// `AdvanceStringIndex` abstract operation
+// https://tc39.es/ecma262/#sec-advancestringindex
+module.exports = function (S, index, unicode) {
+  return index + (unicode ? charAt(S, index).length : 1);
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/an-object.js":
 /*!*****************************************************!*\
   !*** ./node_modules/core-js/internals/an-object.js ***!
@@ -10388,6 +10456,89 @@ module.exports = function (exec) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js ***!
+  \******************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+// TODO: Remove from `core-js@4` since it's moved to entry points
+__webpack_require__(/*! ../modules/es.regexp.exec */ "./node_modules/core-js/modules/es.regexp.exec.js");
+var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
+var regexpExec = __webpack_require__(/*! ../internals/regexp-exec */ "./node_modules/core-js/internals/regexp-exec.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+var createNonEnumerableProperty = __webpack_require__(/*! ../internals/create-non-enumerable-property */ "./node_modules/core-js/internals/create-non-enumerable-property.js");
+
+var SPECIES = wellKnownSymbol('species');
+var RegExpPrototype = RegExp.prototype;
+
+module.exports = function (KEY, exec, FORCED, SHAM) {
+  var SYMBOL = wellKnownSymbol(KEY);
+
+  var DELEGATES_TO_SYMBOL = !fails(function () {
+    // String methods call symbol-named RegEp methods
+    var O = {};
+    O[SYMBOL] = function () { return 7; };
+    return ''[KEY](O) != 7;
+  });
+
+  var DELEGATES_TO_EXEC = DELEGATES_TO_SYMBOL && !fails(function () {
+    // Symbol-named RegExp methods call .exec
+    var execCalled = false;
+    var re = /a/;
+
+    if (KEY === 'split') {
+      // We can't use real regex here since it causes deoptimization
+      // and serious performance degradation in V8
+      // https://github.com/zloirock/core-js/issues/306
+      re = {};
+      // RegExp[@@split] doesn't call the regex's exec method, but first creates
+      // a new one. We need to return the patched regex when creating the new one.
+      re.constructor = {};
+      re.constructor[SPECIES] = function () { return re; };
+      re.flags = '';
+      re[SYMBOL] = /./[SYMBOL];
+    }
+
+    re.exec = function () { execCalled = true; return null; };
+
+    re[SYMBOL]('');
+    return !execCalled;
+  });
+
+  if (
+    !DELEGATES_TO_SYMBOL ||
+    !DELEGATES_TO_EXEC ||
+    FORCED
+  ) {
+    var nativeRegExpMethod = /./[SYMBOL];
+    var methods = exec(SYMBOL, ''[KEY], function (nativeMethod, regexp, str, arg2, forceStringMethod) {
+      var $exec = regexp.exec;
+      if ($exec === regexpExec || $exec === RegExpPrototype.exec) {
+        if (DELEGATES_TO_SYMBOL && !forceStringMethod) {
+          // The native String method already delegates to @@method (this
+          // polyfilled function), leasing to infinite recursion.
+          // We avoid it by directly calling the native @@method method.
+          return { done: true, value: nativeRegExpMethod.call(regexp, str, arg2) };
+        }
+        return { done: true, value: nativeMethod.call(str, regexp, arg2) };
+      }
+      return { done: false };
+    });
+
+    redefine(String.prototype, KEY, methods[0]);
+    redefine(RegExpPrototype, SYMBOL, methods[1]);
+  }
+
+  if (SHAM) createNonEnumerableProperty(RegExpPrototype[SYMBOL], 'sham', true);
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/function-bind-context.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/core-js/internals/function-bind-context.js ***!
@@ -10476,6 +10627,57 @@ module.exports = function (it, usingIterator) {
   if (typeof iteratorMethod != 'function') {
     throw TypeError(String(it) + ' is not iterable');
   } return anObject(iteratorMethod.call(it));
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/get-substitution.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/internals/get-substitution.js ***!
+  \************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var toObject = __webpack_require__(/*! ../internals/to-object */ "./node_modules/core-js/internals/to-object.js");
+
+var floor = Math.floor;
+var replace = ''.replace;
+var SUBSTITUTION_SYMBOLS = /\$([$&'`]|\d{1,2}|<[^>]*>)/g;
+var SUBSTITUTION_SYMBOLS_NO_NAMED = /\$([$&'`]|\d{1,2})/g;
+
+// `GetSubstitution` abstract operation
+// https://tc39.es/ecma262/#sec-getsubstitution
+module.exports = function (matched, str, position, captures, namedCaptures, replacement) {
+  var tailPos = position + matched.length;
+  var m = captures.length;
+  var symbols = SUBSTITUTION_SYMBOLS_NO_NAMED;
+  if (namedCaptures !== undefined) {
+    namedCaptures = toObject(namedCaptures);
+    symbols = SUBSTITUTION_SYMBOLS;
+  }
+  return replace.call(replacement, symbols, function (match, ch) {
+    var capture;
+    switch (ch.charAt(0)) {
+      case '$': return '$';
+      case '&': return matched;
+      case '`': return str.slice(0, position);
+      case "'": return str.slice(tailPos);
+      case '<':
+        capture = namedCaptures[ch.slice(1, -1)];
+        break;
+      default: // \d\d?
+        var n = +ch;
+        if (n === 0) return match;
+        if (n > m) {
+          var f = floor(n / 10);
+          if (f === 0) return match;
+          if (f <= m) return captures[f - 1] === undefined ? ch.charAt(1) : captures[f - 1] + ch.charAt(1);
+          return match;
+        }
+        capture = captures[n - 1];
+    }
+    return capture === undefined ? '' : capture;
+  });
 };
 
 
@@ -11446,6 +11648,258 @@ var TEMPLATE = String(String).split('String');
 
 /***/ }),
 
+/***/ "./node_modules/core-js/internals/regexp-exec-abstract.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/internals/regexp-exec-abstract.js ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var classof = __webpack_require__(/*! ./classof-raw */ "./node_modules/core-js/internals/classof-raw.js");
+var regexpExec = __webpack_require__(/*! ./regexp-exec */ "./node_modules/core-js/internals/regexp-exec.js");
+
+// `RegExpExec` abstract operation
+// https://tc39.es/ecma262/#sec-regexpexec
+module.exports = function (R, S) {
+  var exec = R.exec;
+  if (typeof exec === 'function') {
+    var result = exec.call(R, S);
+    if (typeof result !== 'object') {
+      throw TypeError('RegExp exec method returned something other than an Object or null');
+    }
+    return result;
+  }
+
+  if (classof(R) !== 'RegExp') {
+    throw TypeError('RegExp#exec called on incompatible receiver');
+  }
+
+  return regexpExec.call(R, S);
+};
+
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/regexp-exec.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/internals/regexp-exec.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+/* eslint-disable regexp/no-empty-capturing-group, regexp/no-empty-group, regexp/no-lazy-ends -- testing */
+/* eslint-disable regexp/no-useless-quantifier -- testing */
+var toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
+var regexpFlags = __webpack_require__(/*! ../internals/regexp-flags */ "./node_modules/core-js/internals/regexp-flags.js");
+var stickyHelpers = __webpack_require__(/*! ../internals/regexp-sticky-helpers */ "./node_modules/core-js/internals/regexp-sticky-helpers.js");
+var shared = __webpack_require__(/*! ../internals/shared */ "./node_modules/core-js/internals/shared.js");
+var create = __webpack_require__(/*! ../internals/object-create */ "./node_modules/core-js/internals/object-create.js");
+var getInternalState = __webpack_require__(/*! ../internals/internal-state */ "./node_modules/core-js/internals/internal-state.js").get;
+var UNSUPPORTED_DOT_ALL = __webpack_require__(/*! ../internals/regexp-unsupported-dot-all */ "./node_modules/core-js/internals/regexp-unsupported-dot-all.js");
+var UNSUPPORTED_NCG = __webpack_require__(/*! ../internals/regexp-unsupported-ncg */ "./node_modules/core-js/internals/regexp-unsupported-ncg.js");
+
+var nativeExec = RegExp.prototype.exec;
+var nativeReplace = shared('native-string-replace', String.prototype.replace);
+
+var patchedExec = nativeExec;
+
+var UPDATES_LAST_INDEX_WRONG = (function () {
+  var re1 = /a/;
+  var re2 = /b*/g;
+  nativeExec.call(re1, 'a');
+  nativeExec.call(re2, 'a');
+  return re1.lastIndex !== 0 || re2.lastIndex !== 0;
+})();
+
+var UNSUPPORTED_Y = stickyHelpers.UNSUPPORTED_Y || stickyHelpers.BROKEN_CARET;
+
+// nonparticipating capturing group, copied from es5-shim's String#split patch.
+var NPCG_INCLUDED = /()??/.exec('')[1] !== undefined;
+
+var PATCH = UPDATES_LAST_INDEX_WRONG || NPCG_INCLUDED || UNSUPPORTED_Y || UNSUPPORTED_DOT_ALL || UNSUPPORTED_NCG;
+
+if (PATCH) {
+  // eslint-disable-next-line max-statements -- TODO
+  patchedExec = function exec(string) {
+    var re = this;
+    var state = getInternalState(re);
+    var str = toString(string);
+    var raw = state.raw;
+    var result, reCopy, lastIndex, match, i, object, group;
+
+    if (raw) {
+      raw.lastIndex = re.lastIndex;
+      result = patchedExec.call(raw, str);
+      re.lastIndex = raw.lastIndex;
+      return result;
+    }
+
+    var groups = state.groups;
+    var sticky = UNSUPPORTED_Y && re.sticky;
+    var flags = regexpFlags.call(re);
+    var source = re.source;
+    var charsAdded = 0;
+    var strCopy = str;
+
+    if (sticky) {
+      flags = flags.replace('y', '');
+      if (flags.indexOf('g') === -1) {
+        flags += 'g';
+      }
+
+      strCopy = str.slice(re.lastIndex);
+      // Support anchored sticky behavior.
+      if (re.lastIndex > 0 && (!re.multiline || re.multiline && str.charAt(re.lastIndex - 1) !== '\n')) {
+        source = '(?: ' + source + ')';
+        strCopy = ' ' + strCopy;
+        charsAdded++;
+      }
+      // ^(? + rx + ) is needed, in combination with some str slicing, to
+      // simulate the 'y' flag.
+      reCopy = new RegExp('^(?:' + source + ')', flags);
+    }
+
+    if (NPCG_INCLUDED) {
+      reCopy = new RegExp('^' + source + '$(?!\\s)', flags);
+    }
+    if (UPDATES_LAST_INDEX_WRONG) lastIndex = re.lastIndex;
+
+    match = nativeExec.call(sticky ? reCopy : re, strCopy);
+
+    if (sticky) {
+      if (match) {
+        match.input = match.input.slice(charsAdded);
+        match[0] = match[0].slice(charsAdded);
+        match.index = re.lastIndex;
+        re.lastIndex += match[0].length;
+      } else re.lastIndex = 0;
+    } else if (UPDATES_LAST_INDEX_WRONG && match) {
+      re.lastIndex = re.global ? match.index + match[0].length : lastIndex;
+    }
+    if (NPCG_INCLUDED && match && match.length > 1) {
+      // Fix browsers whose `exec` methods don't consistently return `undefined`
+      // for NPCG, like IE8. NOTE: This doesn' work for /(.?)?/
+      nativeReplace.call(match[0], reCopy, function () {
+        for (i = 1; i < arguments.length - 2; i++) {
+          if (arguments[i] === undefined) match[i] = undefined;
+        }
+      });
+    }
+
+    if (match && groups) {
+      match.groups = object = create(null);
+      for (i = 0; i < groups.length; i++) {
+        group = groups[i];
+        object[group[0]] = match[group[1]];
+      }
+    }
+
+    return match;
+  };
+}
+
+module.exports = patchedExec;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/regexp-flags.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/internals/regexp-flags.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+
+// `RegExp.prototype.flags` getter implementation
+// https://tc39.es/ecma262/#sec-get-regexp.prototype.flags
+module.exports = function () {
+  var that = anObject(this);
+  var result = '';
+  if (that.global) result += 'g';
+  if (that.ignoreCase) result += 'i';
+  if (that.multiline) result += 'm';
+  if (that.dotAll) result += 's';
+  if (that.unicode) result += 'u';
+  if (that.sticky) result += 'y';
+  return result;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/regexp-sticky-helpers.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/internals/regexp-sticky-helpers.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+
+// babel-minify and Closure Compiler transpiles RegExp('a', 'y') -> /a/y and it causes SyntaxError
+var $RegExp = global.RegExp;
+
+exports.UNSUPPORTED_Y = fails(function () {
+  var re = $RegExp('a', 'y');
+  re.lastIndex = 2;
+  return re.exec('abcd') != null;
+});
+
+exports.BROKEN_CARET = fails(function () {
+  // https://bugzilla.mozilla.org/show_bug.cgi?id=773687
+  var re = $RegExp('^r', 'gy');
+  re.lastIndex = 2;
+  return re.exec('str') != null;
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/regexp-unsupported-dot-all.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/internals/regexp-unsupported-dot-all.js ***!
+  \**********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var fails = __webpack_require__(/*! ./fails */ "./node_modules/core-js/internals/fails.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+
+// babel-minify and Closure Compiler transpiles RegExp('.', 's') -> /./s and it causes SyntaxError
+var $RegExp = global.RegExp;
+
+module.exports = fails(function () {
+  var re = $RegExp('.', 's');
+  return !(re.dotAll && re.exec('\n') && re.flags === 's');
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/regexp-unsupported-ncg.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/internals/regexp-unsupported-ncg.js ***!
+  \******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var fails = __webpack_require__(/*! ./fails */ "./node_modules/core-js/internals/fails.js");
+var global = __webpack_require__(/*! ../internals/global */ "./node_modules/core-js/internals/global.js");
+
+// babel-minify and Closure Compiler transpiles RegExp('(?<a>b)', 'g') -> /(?<a>b)/g and it causes SyntaxError
+var $RegExp = global.RegExp;
+
+module.exports = fails(function () {
+  var re = $RegExp('(?<a>b)', 'g');
+  return re.exec('b').groups.a !== 'b' ||
+    'b'.replace(re, '$<a>c') !== 'bc';
+});
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/internals/require-object-coercible.js":
 /*!********************************************************************!*\
   !*** ./node_modules/core-js/internals/require-object-coercible.js ***!
@@ -12046,6 +12500,26 @@ if (!TO_STRING_TAG_SUPPORT) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/modules/es.regexp.exec.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/modules/es.regexp.exec.js ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var exec = __webpack_require__(/*! ../internals/regexp-exec */ "./node_modules/core-js/internals/regexp-exec.js");
+
+// `RegExp.prototype.exec` method
+// https://tc39.es/ecma262/#sec-regexp.prototype.exec
+$({ target: 'RegExp', proto: true, forced: /./.exec !== exec }, {
+  exec: exec
+});
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/modules/es.string.iterator.js":
 /*!************************************************************!*\
   !*** ./node_modules/core-js/modules/es.string.iterator.js ***!
@@ -12083,6 +12557,144 @@ defineIterator(String, 'String', function (iterated) {
   state.index += point.length;
   return { value: point, done: false };
 });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.string.replace.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/modules/es.string.replace.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+var fixRegExpWellKnownSymbolLogic = __webpack_require__(/*! ../internals/fix-regexp-well-known-symbol-logic */ "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
+var toLength = __webpack_require__(/*! ../internals/to-length */ "./node_modules/core-js/internals/to-length.js");
+var toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
+var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "./node_modules/core-js/internals/require-object-coercible.js");
+var advanceStringIndex = __webpack_require__(/*! ../internals/advance-string-index */ "./node_modules/core-js/internals/advance-string-index.js");
+var getSubstitution = __webpack_require__(/*! ../internals/get-substitution */ "./node_modules/core-js/internals/get-substitution.js");
+var regExpExec = __webpack_require__(/*! ../internals/regexp-exec-abstract */ "./node_modules/core-js/internals/regexp-exec-abstract.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
+
+var REPLACE = wellKnownSymbol('replace');
+var max = Math.max;
+var min = Math.min;
+
+var maybeToString = function (it) {
+  return it === undefined ? it : String(it);
+};
+
+// IE <= 11 replaces $0 with the whole match, as if it was $&
+// https://stackoverflow.com/questions/6024666/getting-ie-to-replace-a-regex-with-the-literal-string-0
+var REPLACE_KEEPS_$0 = (function () {
+  // eslint-disable-next-line regexp/prefer-escape-replacement-dollar-char -- required for testing
+  return 'a'.replace(/./, '$0') === '$0';
+})();
+
+// Safari <= 13.0.3(?) substitutes nth capture where n>m with an empty string
+var REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE = (function () {
+  if (/./[REPLACE]) {
+    return /./[REPLACE]('a', '$0') === '';
+  }
+  return false;
+})();
+
+var REPLACE_SUPPORTS_NAMED_GROUPS = !fails(function () {
+  var re = /./;
+  re.exec = function () {
+    var result = [];
+    result.groups = { a: '7' };
+    return result;
+  };
+  // eslint-disable-next-line regexp/no-useless-dollar-replacements -- false positive
+  return ''.replace(re, '$<a>') !== '7';
+});
+
+// @@replace logic
+fixRegExpWellKnownSymbolLogic('replace', function (_, nativeReplace, maybeCallNative) {
+  var UNSAFE_SUBSTITUTE = REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE ? '$' : '$0';
+
+  return [
+    // `String.prototype.replace` method
+    // https://tc39.es/ecma262/#sec-string.prototype.replace
+    function replace(searchValue, replaceValue) {
+      var O = requireObjectCoercible(this);
+      var replacer = searchValue == undefined ? undefined : searchValue[REPLACE];
+      return replacer !== undefined
+        ? replacer.call(searchValue, O, replaceValue)
+        : nativeReplace.call(toString(O), searchValue, replaceValue);
+    },
+    // `RegExp.prototype[@@replace]` method
+    // https://tc39.es/ecma262/#sec-regexp.prototype-@@replace
+    function (string, replaceValue) {
+      var rx = anObject(this);
+      var S = toString(string);
+
+      if (
+        typeof replaceValue === 'string' &&
+        replaceValue.indexOf(UNSAFE_SUBSTITUTE) === -1 &&
+        replaceValue.indexOf('$<') === -1
+      ) {
+        var res = maybeCallNative(nativeReplace, rx, S, replaceValue);
+        if (res.done) return res.value;
+      }
+
+      var functionalReplace = typeof replaceValue === 'function';
+      if (!functionalReplace) replaceValue = toString(replaceValue);
+
+      var global = rx.global;
+      if (global) {
+        var fullUnicode = rx.unicode;
+        rx.lastIndex = 0;
+      }
+      var results = [];
+      while (true) {
+        var result = regExpExec(rx, S);
+        if (result === null) break;
+
+        results.push(result);
+        if (!global) break;
+
+        var matchStr = toString(result[0]);
+        if (matchStr === '') rx.lastIndex = advanceStringIndex(S, toLength(rx.lastIndex), fullUnicode);
+      }
+
+      var accumulatedResult = '';
+      var nextSourcePosition = 0;
+      for (var i = 0; i < results.length; i++) {
+        result = results[i];
+
+        var matched = toString(result[0]);
+        var position = max(min(toInteger(result.index), S.length), 0);
+        var captures = [];
+        // NOTE: This is equivalent to
+        //   captures = result.slice(1).map(maybeToString)
+        // but for some reason `nativeSlice.call(result, 1, result.length)` (called in
+        // the slice polyfill when slicing native arrays) "doesn't work" in safari 9 and
+        // causes a crash (https://pastebin.com/N21QzeQA) when trying to debug it.
+        for (var j = 1; j < result.length; j++) captures.push(maybeToString(result[j]));
+        var namedCaptures = result.groups;
+        if (functionalReplace) {
+          var replacerArgs = [matched].concat(captures, position, S);
+          if (namedCaptures !== undefined) replacerArgs.push(namedCaptures);
+          var replacement = toString(replaceValue.apply(undefined, replacerArgs));
+        } else {
+          replacement = getSubstitution(matched, S, position, captures, namedCaptures, replaceValue);
+        }
+        if (position >= nextSourcePosition) {
+          accumulatedResult += S.slice(nextSourcePosition, position) + replacement;
+          nextSourcePosition = position + matched.length;
+        }
+      }
+      return accumulatedResult + S.slice(nextSourcePosition);
+    }
+  ];
+}, !REPLACE_SUPPORTS_NAMED_GROUPS || !REPLACE_KEEPS_$0 || REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE);
 
 
 /***/ }),
@@ -49145,14 +49757,14 @@ module.exports = __webpack_require__.p + "assets/6af2f46d95cabd679e7c.woff2";
 
 /***/ }),
 
-/***/ "./src/assets/images/RULogo.png":
-/*!**************************************!*\
-  !*** ./src/assets/images/RULogo.png ***!
-  \**************************************/
+/***/ "./src/assets/images/RULogo3.png":
+/*!***************************************!*\
+  !*** ./src/assets/images/RULogo3.png ***!
+  \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/88502b3cd18dc921be51.png";
+module.exports = __webpack_require__.p + "assets/b405fcf444d22df609d4.png";
 
 /***/ }),
 
