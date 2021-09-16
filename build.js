@@ -1214,14 +1214,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var pages__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! pages */ "./src/pages/index.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var assets_fonts_AppleSDGothicNeoL_woff2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! assets/fonts/AppleSDGothicNeoL.woff2 */ "./src/assets/fonts/AppleSDGothicNeoL.woff2");
 /* harmony import */ var assets_fonts_SCDream3_woff2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! assets/fonts/SCDream3.woff2 */ "./src/assets/fonts/SCDream3.woff2");
 /* harmony import */ var assets_fonts_KCC_eunyoung_woff2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! assets/fonts/KCC-eunyoung.woff2 */ "./src/assets/fonts/KCC-eunyoung.woff2");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var assets_fonts_samlipOutline_woff2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! assets/fonts/samlipOutline.woff2 */ "./src/assets/fonts/samlipOutline.woff2");
+/* harmony import */ var assets_fonts_NanumSquareEB_woff2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! assets/fonts/NanumSquareEB.woff2 */ "./src/assets/fonts/NanumSquareEB.woff2");
+/* harmony import */ var assets_fonts_NanumSquareL_woff2__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! assets/fonts/NanumSquareL.woff2 */ "./src/assets/fonts/NanumSquareL.woff2");
+/* harmony import */ var assets_fonts_NEXON_Lv1_Gothic_OTF_Bold_woff__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! assets/fonts/NEXON Lv1 Gothic OTF Bold.woff */ "./src/assets/fonts/NEXON Lv1 Gothic OTF Bold.woff");
+/* harmony import */ var assets_fonts_NEXON_Lv1_Gothic_OTF_Light_woff__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! assets/fonts/NEXON Lv1 Gothic OTF Light.woff */ "./src/assets/fonts/NEXON Lv1 Gothic OTF Light.woff");
+/* harmony import */ var assets_fonts_NEXON_Lv1_Gothic_OTF_woff__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! assets/fonts/NEXON Lv1 Gothic OTF.woff */ "./src/assets/fonts/NEXON Lv1 Gothic OTF.woff");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* module decorator */ module = __webpack_require__.hmd(module);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
@@ -1245,26 +1251,32 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 
 
 
-var GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_6__.createGlobalStyle)(["@font-face{font-family:'Apple';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'SCDream';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'Kcc';font-style:normal;src:url(", ") format('woff2');}body,textarea,input,button{-webkit-font-smoothing:antialiased;font-family:'Apple',sans-serif !important;margin:0;}body{height:100vh;overflow:hidden;}a{text-decoration:none;}"], assets_fonts_AppleSDGothicNeoL_woff2__WEBPACK_IMPORTED_MODULE_2__, assets_fonts_SCDream3_woff2__WEBPACK_IMPORTED_MODULE_3__, assets_fonts_KCC_eunyoung_woff2__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+
+var GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_12__.createGlobalStyle)(["@font-face{font-family:'Apple';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NanumSquareB';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NanumSquareL';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NexonB';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NexonL';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NexonR';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'SCDream';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'Kcc';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'Samlip';font-style:normal;src:url(", ") format('woff2');}body,textarea,input,button,a{-webkit-font-smoothing:antialiased;font-family:'Apple',sans-serif !important;margin:0;}body{height:100vh;overflow:hidden;}a{text-decoration:none;}"], assets_fonts_AppleSDGothicNeoL_woff2__WEBPACK_IMPORTED_MODULE_2__, assets_fonts_NanumSquareEB_woff2__WEBPACK_IMPORTED_MODULE_6__, assets_fonts_NanumSquareL_woff2__WEBPACK_IMPORTED_MODULE_7__, assets_fonts_NEXON_Lv1_Gothic_OTF_Bold_woff__WEBPACK_IMPORTED_MODULE_8__, assets_fonts_NEXON_Lv1_Gothic_OTF_Light_woff__WEBPACK_IMPORTED_MODULE_9__, assets_fonts_NEXON_Lv1_Gothic_OTF_woff__WEBPACK_IMPORTED_MODULE_10__, assets_fonts_SCDream3_woff2__WEBPACK_IMPORTED_MODULE_3__, assets_fonts_KCC_eunyoung_woff2__WEBPACK_IMPORTED_MODULE_4__, assets_fonts_samlipOutline_woff2__WEBPACK_IMPORTED_MODULE_5__);
 
 var App = function App() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.Fragment, {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(GlobalStyles, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.BrowserRouter, {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(pages__WEBPACK_IMPORTED_MODULE_1__.Header, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(pages__WEBPACK_IMPORTED_MODULE_1__.Nav, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Switch, {
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(GlobalStyles, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_13__.BrowserRouter, {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(pages__WEBPACK_IMPORTED_MODULE_1__.Header, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(pages__WEBPACK_IMPORTED_MODULE_1__.Nav, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Switch, {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Route, {
           exact: true,
           path: "/",
           component: pages__WEBPACK_IMPORTED_MODULE_1__.Home
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Route, {
           exact: true,
           path: "/projects",
           component: pages__WEBPACK_IMPORTED_MODULE_1__.Projects
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Route, {
           exact: true,
           path: "/me",
           component: pages__WEBPACK_IMPORTED_MODULE_1__.Me
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(pages__WEBPACK_IMPORTED_MODULE_1__.Copyright, {})]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(pages__WEBPACK_IMPORTED_MODULE_1__.Copyright, {})]
     })]
   });
 };
@@ -1343,7 +1355,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var FirstStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].section.withConfig({
   displayName: "First__FirstStyle",
   componentId: "sc-egsxn3-0"
-})(["display:flex;align-items:center;justify-content:center;width:100%;height:100vh;background-color:#9370db;.container{width:60%;min-width:350px;display:flex;flex-direction:column;align-items:flex-start;z-index:1;transition:all 0.3s ease-in-out;p{margin:0;color:white;font-weight:600;}#name{margin-bottom:1rem;}#job{font-size:6rem;}}.me{position:absolute;right:5%;width:600px;height:100vh;background:center bottom no-repeat;background-size:cover;transition:all 1s ease-in-out;}@media (max-width:1400px){.container{width:80%;}.me{right:0;}}@media (max-width:1100px){align-items:flex-start;.container{transform:translateY(250px);align-items:center;#name{font-size:0.8rem;}#job{font-size:2.5rem;}}.me{left:50%;background-size:50%;transform:translateX(-305px);background-position:bottom;}}"]);
+})(["display:flex;align-items:center;justify-content:center;width:100%;height:100vh;background-color:#9370db;font-family:'NanumSquareL',sans-serif;.container{width:60%;min-width:350px;display:flex;flex-direction:column;align-items:flex-start;z-index:1;transition:all 0.3s ease-in-out;p{margin:0;color:white;font-weight:600;}#name{margin-bottom:1rem;}#job{font-size:6rem;}}.me{position:absolute;right:3%;width:600px;height:100vh;background:center bottom no-repeat;background-size:cover;transition:all 1s ease-in-out;}@media (max-width:1400px){.container{width:80%;}.me{right:0;}}@media (max-width:1100px){align-items:flex-start;.container{transform:translateY(250px);align-items:center;#name{font-size:0.8rem;}#job{font-size:2.5rem;}}.me{left:50%;background-size:50%;transform:translateX(-305px);background-position:bottom;}}"]);
 
 function First() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(FirstStyle, {
@@ -2007,7 +2019,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var HugusStyle = styled_components__WEBPACK_IMPORTED_MODULE_11__["default"].article.withConfig({
   displayName: "Hugus__HugusStyle",
   componentId: "sc-eo6t8b-0"
-})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:400px;}p{color:#ffb73f;font-size:2.5rem;font-family:Kcc;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{width:250px;}p{color:#ffb73f;font-size:1.5rem;font-family:Kcc;}}}"]);
+})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:400px;}p{color:#ffb73f;font-size:2.5rem;font-family:Kcc;}}@media (max-width:600px){padding-top:120px;.intro{height:250px;.logo{width:250px;}p{font-size:1.5rem;}}}"]);
 
 var Hugus = function Hugus() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
@@ -3322,8 +3334,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _images_RULogo_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @images/RULogo.png */ "./src/assets/images/RULogo.png");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* module decorator */ module = __webpack_require__.hmd(module);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
@@ -3339,18 +3352,23 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 
 
 
-var RUStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].article.withConfig({
+
+
+var RUStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].article.withConfig({
   displayName: "RU__RUStyle",
   componentId: "sc-1fydjdl-0"
-})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:350px;}p{margin-top:50px;color:#68b8f5;font-size:2.5rem;font-family:Kcc;}}"]);
+})(["width:100%;display:flex;flex-direction:column;align-items:center;padding-top:200px;color:white;.intro{height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;.logo{width:250px;}p{margin-top:50px;color:#68b8f5;font-size:2.5rem;font-family:Kcc;}}"]);
 
 var RU = function RU() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(RUStyle, {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(RUStyle, {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
       className: "intro",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-        children: "\"\uBE14\uB85D\uCCB4\uC778 \uB274\uC2A4 \uCEE4\uBBA4\uB2C8\uD2F0, \uC2A4\uB0C5\uBE57\""
-      })
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+        className: "logo",
+        src: _images_RULogo_png__WEBPACK_IMPORTED_MODULE_0__
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+        children: "\"\uB098\uB9CC\uC758 NFT \uAE30\uBD80 \uB9C8\uB77C\uD1A4, RU\""
+      })]
     })
   });
 };
@@ -4652,7 +4670,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var HeaderStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].header.withConfig({
   displayName: "Header__HeaderStyle",
   componentId: "sc-59o7b9-0"
-})(["position:fixed;padding:40px 80px;width:100%;z-index:1;a{text-decoration:none;color:white;}#title{font-size:1.7rem;font-weight:800;}#email{font-size:0.9rem;margin-left:10%;}@media (max-width:500px){padding:40px 40px;transition:all 0.5s ease-in-out;#title{font-size:1.2rem;}#email{font-size:10px;}}"]);
+})(["position:fixed;padding:40px 80px;width:100%;height:40px;z-index:1;display:flex;align-items:center;a{text-decoration:none;color:white;}#title{font-size:1.7rem;font-weight:bold;}#email{font-size:0.9rem;margin-left:10%;margin-top:10px;}@media (max-width:500px){padding:40px 40px;transition:all 0.5s ease-in-out;#title{font-size:1.2rem;}#email{font-size:10px;}}"]);
 
 var Header = function Header() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(HeaderStyle, {
@@ -5075,7 +5093,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var NavStyle = styled_components__WEBPACK_IMPORTED_MODULE_12__["default"].nav.withConfig({
   displayName: "Nav__NavStyle",
   componentId: "sc-1ngi9mr-0"
-})(["position:fixed;width:100%;z-index:1;.nav__btn{display:block;position:absolute;width:35px;height:35px;top:45px;right:7%;background:none;border:none;cursor:pointer;span{position:absolute;width:100%;height:2px;background-color:#fff;border-radius:4px;}span:nth-child(1){top:5px;right:1px;}span:nth-child(2){top:15px;right:1px;}span:nth-child(3){top:25px;right:1px;}}.nav__menu{visibility:", ";position:fixed;display:flex;flex-direction:column;justify-content:center;align-items:center;right:0;width:", ";height:100vh;background-color:#212121;transition:all 1s cubic-bezier(0.55,0.085,0,0.99);transition-delay:", ";.nav__btn{position:absolute;width:35px;height:35px;top:45px;left:10%;background:none;border:none;cursor:pointer;transition-delay:1s;transition:1s ease-in-out;span{transition:all 0.3s ease-in-out;transition-delay:", ";opacity:", ";}span:nth-child(1){", "}span:nth-child(2){", "}span:nth-child(3){", "}}ul{display:flex;flex-direction:column;width:50%;height:40%;list-style:none;padding:0;li{width:100%;transition:all 0.4s ease-in-out;a{font-family:AppleSDGothicNeoEB00;text-decoration:none;text-align:left;font-size:2rem;background:none;color:white;cursor:pointer;-webkit-font-smoothing:antialiased;-webkit-text-fill-color:transparent;-webkit-text-stroke:0.5px white;font-weight:bolder;line-height:5rem;transition:all 0.3s cubic-bezier(0.46,0.03,0.52,0.96);:hover{-webkit-text-stroke:0.5px mediumpurple;-webkit-text-fill-color:mediumpurple;}}:nth-child(1){transform:translateX(", "px);transition-delay:", ";opacity:", ";}:nth-child(2){transform:translateX(", "px);transition-delay:", ";opacity:", ";}:nth-child(3){transform:translateX(", "px);transition-delay:", ";opacity:", ";}}}.sites{display:flex;width:50%;padding-top:200px;button{background:none;border:none;height:50px;cursor:pointer;transform:translateX(", "px);transition:all 0.3s cubic-bezier(0.46,0.03,0.52,0.96);transition-delay:", ";opacity:", ";a{color:lightgray;font-size:1rem;font-weight:900;margin:0 10px;text-decoration:none;}}}}@media (max-width:500px){.nav__btn{width:30px;height:25px;top:35px;right:7%;background:none;border:none;cursor:pointer;span:nth-child(1){top:5px;right:1px;}span:nth-child(2){top:13px;right:1px;}span:nth-child(3){top:21px;right:1px;}}.nav__menu{left:0;width:100%;height:", ";transition:all 1s cubic-bezier(0.55,0.085,0,0.99);-webkit-transition:all 1s cubic-bezier(0.55,0.085,0,0.99);.nav__btn{left:85%;}ul{height:100%;justify-content:center;li{a{font-size:1.5rem;}}}.sites{display:flex;width:50%;padding-top:0px;button{a{font-size:10px;}}}}}"], function (props) {
+})(["position:fixed;width:100%;z-index:1;.nav__btn{display:block;position:absolute;width:35px;height:35px;top:45px;right:7%;background:none;border:none;cursor:pointer;span{position:absolute;width:100%;height:2px;background-color:#fff;border-radius:4px;}span:nth-child(1){top:5px;right:1px;}span:nth-child(2){top:15px;right:1px;}span:nth-child(3){top:25px;right:1px;}}.nav__menu{visibility:", ";position:fixed;display:flex;flex-direction:column;justify-content:center;align-items:center;right:0;width:", ";height:100vh;background-color:#212121;transition:all 1s cubic-bezier(0.55,0.085,0,0.99);transition-delay:", ";.nav__btn{position:absolute;width:35px;height:35px;top:45px;left:10%;background:none;border:none;cursor:pointer;transition-delay:1s;transition:1s ease-in-out;span{transition:all 0.3s ease-in-out;transition-delay:", ";opacity:", ";}span:nth-child(1){", "}span:nth-child(2){", "}span:nth-child(3){", "}}ul{display:flex;flex-direction:column;width:50%;height:40%;list-style:none;padding:0;li{width:100%;transition:all 0.4s ease-in-out;a{font-family:AppleSDGothicNeoEB00;text-decoration:none;text-align:left;font-size:2rem;background:none;color:white;cursor:pointer;-webkit-font-smoothing:antialiased;-webkit-text-fill-color:transparent;-webkit-text-stroke:0.5px white;font-weight:bolder;line-height:5rem;transition:all 0.3s cubic-bezier(0.46,0.03,0.52,0.96);:hover{-webkit-text-stroke:0.5px mediumpurple;-webkit-text-fill-color:mediumpurple;}}:nth-child(1){transform:translateX(", "px);transition-delay:", ";opacity:", ";}:nth-child(2){transform:translateX(", "px);transition-delay:", ";opacity:", ";}:nth-child(3){transform:translateX(", "px);transition-delay:", ";opacity:", ";}}}.sites{display:flex;width:50%;padding-top:200px;button{background:none;border:none;height:50px;cursor:pointer;transform:translateX(", "px);transition:all 0.3s cubic-bezier(0.46,0.03,0.52,0.96);transition-delay:", ";opacity:", ";a{color:lightgray;font-size:1rem;font-weight:900;margin:0 10px;text-decoration:none;}}}}@media (max-width:500px){.nav__btn{width:30px;height:25px;top:45px;right:7%;background:none;border:none;cursor:pointer;span:nth-child(1){top:5px;right:1px;}span:nth-child(2){top:13px;right:1px;}span:nth-child(3){top:21px;right:1px;}}.nav__menu{left:0;width:100%;height:", ";transition:all 1s cubic-bezier(0.55,0.085,0,0.99);-webkit-transition:all 1s cubic-bezier(0.55,0.085,0,0.99);.nav__btn{left:85%;}ul{height:100%;justify-content:center;li{a{font-size:1.5rem;}}}.sites{display:flex;width:50%;padding-top:0px;button{a{font-size:10px;}}}}}"], function (props) {
   return props.open ? 'visible' : 'hidden';
 }, function (props) {
   return props.open ? '500px' : '0';
@@ -5309,7 +5327,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var ProjectsStyle = styled_components__WEBPACK_IMPORTED_MODULE_13__["default"].section.withConfig({
   displayName: "Projects__ProjectsStyle",
   componentId: "sc-1xvbc9u-0"
-})(["display:flex;flex-direction:column;align-items:center;min-height:100vh;padding-top:114px;background-color:black;.container{position:fixed;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background-color:rgb(17,17,19);transition:all 1s ease-in-out;transform:translateY(", ");.list{display:grid;grid-template-columns:1fr 1fr 1fr;height:80px;margin:0;padding:0;width:50%;transition:all 1s ease-in-out;li{color:white;list-style:none;justify-self:center;align-self:center;button{font-size:30px;background:none;border:none;color:white;cursor:pointer;font-weight:bolder;line-height:50px;transition:all 0.3s ease-in-out;span{color:white;opacity:0.3;font-size:20px;}:hover{color:mediumpurple;span{opacity:1;}}}#hugus{", ";}#quiz{", ";}#ru{", ";}}}.bar{width:50%;display:grid;grid-template-columns:1fr 1fr 1fr;div{transition:opacity 0.7s ease-in-out;width:70%;justify-self:center;height:2px;}#hugus{opacity:", ";background-color:#ffa500;}#quiz{opacity:", ";background-color:#ec6375;}#ru{opacity:", ";background-color:#68b8f5;}}}@media (max-width:1200px){.container{.list{width:80%;}.bar{width:80%;}}}@media (max-width:600px){.container{.list{width:100%;height:60px;li{button{font-size:25px;span{font-size:15px;}}}}.bar{width:100%;}}}"], function (props) {
+})(["display:flex;flex-direction:column;align-items:center;min-height:100vh;padding-top:120px;background-color:black;.container{position:fixed;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background-color:rgb(17,17,19);transition:all 1s ease-in-out;transform:translateY(", ");.list{display:grid;grid-template-columns:1fr 1fr 1fr;height:80px;margin:0;padding:0;width:50%;transition:all 1s ease-in-out;li{color:white;list-style:none;justify-self:center;align-self:center;button{font-size:30px;background:none;border:none;color:white;cursor:pointer;font-weight:bolder;line-height:50px;transition:all 0.3s ease-in-out;span{color:white;opacity:0.3;font-size:20px;}:hover{color:mediumpurple;span{opacity:1;}}}#hugus{", ";}#quiz{", ";}#ru{", ";}}}.bar{width:50%;display:grid;grid-template-columns:1fr 1fr 1fr;div{transition:opacity 0.7s ease-in-out;width:70%;justify-self:center;height:2px;}#hugus{opacity:", ";background-color:#ffa500;}#quiz{opacity:", ";background-color:#ec6375;}#ru{opacity:", ";background-color:#68b8f5;}}}@media (max-width:1200px){.container{.list{width:80%;}.bar{width:80%;}}}@media (max-width:600px){.container{.list{width:100%;height:60px;li{button{font-size:25px;span{font-size:15px;}}}}.bar{width:100%;}}}"], function (props) {
   return props.scroll ? '-100px' : '0px';
 }, function (props) {
   return props.type === 'hugus' && 'color:#ffa500;span{opacity:1}';
@@ -49050,6 +49068,61 @@ module.exports = __webpack_require__.p + "assets/e5156e1c2dea8778bb0d.woff2";
 
 /***/ }),
 
+/***/ "./src/assets/fonts/NEXON Lv1 Gothic OTF Bold.woff":
+/*!*********************************************************!*\
+  !*** ./src/assets/fonts/NEXON Lv1 Gothic OTF Bold.woff ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/fea89342b1b0f7a386b6.woff";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/NEXON Lv1 Gothic OTF Light.woff":
+/*!**********************************************************!*\
+  !*** ./src/assets/fonts/NEXON Lv1 Gothic OTF Light.woff ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/846c9b6d2062d0b807c1.woff";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/NEXON Lv1 Gothic OTF.woff":
+/*!****************************************************!*\
+  !*** ./src/assets/fonts/NEXON Lv1 Gothic OTF.woff ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/eb1217e4bc7f9fe24aac.woff";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/NanumSquareEB.woff2":
+/*!**********************************************!*\
+  !*** ./src/assets/fonts/NanumSquareEB.woff2 ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/a38d2d6879c2c6f9424b.woff2";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/NanumSquareL.woff2":
+/*!*********************************************!*\
+  !*** ./src/assets/fonts/NanumSquareL.woff2 ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/f8c41da2b9a95a6959d9.woff2";
+
+/***/ }),
+
 /***/ "./src/assets/fonts/SCDream3.woff2":
 /*!*****************************************!*\
   !*** ./src/assets/fonts/SCDream3.woff2 ***!
@@ -49058,6 +49131,28 @@ module.exports = __webpack_require__.p + "assets/e5156e1c2dea8778bb0d.woff2";
 
 "use strict";
 module.exports = __webpack_require__.p + "assets/e04bb7b902048ae6d235.woff2";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/samlipOutline.woff2":
+/*!**********************************************!*\
+  !*** ./src/assets/fonts/samlipOutline.woff2 ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/6af2f46d95cabd679e7c.woff2";
+
+/***/ }),
+
+/***/ "./src/assets/images/RULogo.png":
+/*!**************************************!*\
+  !*** ./src/assets/images/RULogo.png ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/88502b3cd18dc921be51.png";
 
 /***/ }),
 
