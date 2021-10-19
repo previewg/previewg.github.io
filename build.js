@@ -1259,7 +1259,7 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 
 
 
-var GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_13__.createGlobalStyle)(["@font-face{font-family:'Apple';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NanumSquareB';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NanumSquareL';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'NexonB';font-style:normal;src:url(", ") format(\"woff\");}@font-face{font-family:'NexonL';font-style:normal;src:url(", ") format('woff');}@font-face{font-family:'NexonR';font-style:normal;src:url(", ") format('woff');}@font-face{font-family:'SCDream';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'Kcc';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'Samlip';font-style:normal;src:url(", ") format('woff2');}@font-face{font-family:'Montserrat';font-style:normal;src:url(", ") format('woff2');}body,textarea,input,button,a{-webkit-font-smoothing:antialiased;font-family:'Apple',sans-serif !important;margin:0;}body{height:100vh;overflow:hidden;}a{text-decoration:none;}"], _fonts_AppleSDGothicNeoL_woff2__WEBPACK_IMPORTED_MODULE_2__, _fonts_NanumSquareEB_woff2__WEBPACK_IMPORTED_MODULE_6__, _fonts_NanumSquareL_woff2__WEBPACK_IMPORTED_MODULE_7__, _fonts_NEXONBold_woff__WEBPACK_IMPORTED_MODULE_8__, _fonts_NEXONLight_woff__WEBPACK_IMPORTED_MODULE_9__, _fonts_NEXON_woff__WEBPACK_IMPORTED_MODULE_10__, _fonts_SCDream3_woff2__WEBPACK_IMPORTED_MODULE_3__, _fonts_KCC_eunyoung_woff2__WEBPACK_IMPORTED_MODULE_4__, _fonts_samlipOutline_woff2__WEBPACK_IMPORTED_MODULE_5__, _fonts_Montserrat_woff2__WEBPACK_IMPORTED_MODULE_11__);
+var GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_13__.createGlobalStyle)(["@font-face{font-family:'Apple';font-style:normal;src:url(", ") format('woff2');font-display:swap}@font-face{font-family:'NanumSquareB';font-style:normal;src:url(", ") format('woff2');font-display:swap}@font-face{font-family:'NanumSquareL';font-style:normal;src:url(", ") format('woff2');font-display:swap}@font-face{font-family:'NexonB';font-style:normal;src:url(", ") format(\"woff\");font-display:swap}@font-face{font-family:'NexonL';font-style:normal;src:url(", ") format('woff');font-display:swap}@font-face{font-family:'NexonR';font-style:normal;src:url(", ") format('woff');font-display:swap}@font-face{font-family:'SCDream';font-style:normal;src:url(", ") format('woff2');font-display:swap}@font-face{font-family:'Kcc';font-style:normal;src:url(", ") format('woff2');font-display:swap}@font-face{font-family:'Samlip';font-style:normal;src:url(", ") format('woff2');font-display:swap}@font-face{font-family:'Montserrat';font-style:normal;src:url(", ") format('woff2');font-display:swap}body,textarea,input,button,a{-webkit-font-smoothing:antialiased;font-family:'Apple',sans-serif !important;margin:0;}body{height:100vh;overflow:hidden;}a{text-decoration:none;}"], _fonts_AppleSDGothicNeoL_woff2__WEBPACK_IMPORTED_MODULE_2__, _fonts_NanumSquareEB_woff2__WEBPACK_IMPORTED_MODULE_6__, _fonts_NanumSquareL_woff2__WEBPACK_IMPORTED_MODULE_7__, _fonts_NEXONBold_woff__WEBPACK_IMPORTED_MODULE_8__, _fonts_NEXONLight_woff__WEBPACK_IMPORTED_MODULE_9__, _fonts_NEXON_woff__WEBPACK_IMPORTED_MODULE_10__, _fonts_SCDream3_woff2__WEBPACK_IMPORTED_MODULE_3__, _fonts_KCC_eunyoung_woff2__WEBPACK_IMPORTED_MODULE_4__, _fonts_samlipOutline_woff2__WEBPACK_IMPORTED_MODULE_5__, _fonts_Montserrat_woff2__WEBPACK_IMPORTED_MODULE_11__);
 
 var App = function App() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.Fragment, {
@@ -1355,7 +1355,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/modules/es.array.from.js */ "./node_modules/core-js/modules/es.array.from.js");
 /* harmony import */ var core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _images_cheoljin4_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @images/cheoljin4.png */ "./src/assets/images/cheoljin4.png");
+/* harmony import */ var _images_first_webp__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @images/first.webp */ "./src/assets/images/first.webp");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* module decorator */ module = __webpack_require__.hmd(module);
@@ -1431,7 +1431,7 @@ function First() {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)("div", {
       className: "me",
       style: {
-        backgroundImage: "url(".concat(_images_cheoljin4_png__WEBPACK_IMPORTED_MODULE_10__, ")")
+        backgroundImage: "url(".concat(_images_first_webp__WEBPACK_IMPORTED_MODULE_10__, ")")
       }
     })]
   });
@@ -1493,7 +1493,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _images_second2_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @images/second2.jpg */ "./src/assets/images/second2.jpg");
+/* harmony import */ var _images_fourth_webp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @images/fourth.webp */ "./src/assets/images/fourth.webp");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* module decorator */ module = __webpack_require__.hmd(module);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
@@ -1571,7 +1571,7 @@ var Fourth = function Fourth(_ref) {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "background",
       style: {
-        backgroundImage: "url(".concat(_images_second2_jpg__WEBPACK_IMPORTED_MODULE_0__, ")")
+        backgroundImage: "url(".concat(_images_fourth_webp__WEBPACK_IMPORTED_MODULE_0__, ")")
       }
     })]
   });
@@ -1629,7 +1629,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _images_flower_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @images/flower.jpg */ "./src/assets/images/flower.jpg");
+/* harmony import */ var _images_second_webp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @images/second.webp */ "./src/assets/images/second.webp");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* module decorator */ module = __webpack_require__.hmd(module);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
@@ -1675,7 +1675,7 @@ var Second = function Second(_ref) {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "background",
       style: {
-        backgroundImage: "url(".concat(_images_flower_jpg__WEBPACK_IMPORTED_MODULE_0__, ")")
+        backgroundImage: "url(".concat(_images_second_webp__WEBPACK_IMPORTED_MODULE_0__, ")")
       }
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "background2"
@@ -1735,7 +1735,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _images_flower_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @images/flower.png */ "./src/assets/images/flower.png");
+/* harmony import */ var _images_third_webp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @images/third.webp */ "./src/assets/images/third.webp");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* module decorator */ module = __webpack_require__.hmd(module);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
@@ -2022,7 +2022,7 @@ var Third = function Third(_ref) {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "background",
       style: {
-        backgroundImage: "url(".concat(_images_flower_png__WEBPACK_IMPORTED_MODULE_0__, ")")
+        backgroundImage: "url(".concat(_images_third_webp__WEBPACK_IMPORTED_MODULE_0__, ")")
       }
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "background2"
@@ -50878,17 +50878,6 @@ module.exports = __webpack_require__.p + "assets/0fd25a8ad697ff877a70.png";
 
 /***/ }),
 
-/***/ "./src/assets/images/cheoljin4.png":
-/*!*****************************************!*\
-  !*** ./src/assets/images/cheoljin4.png ***!
-  \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "assets/74a786e375c6ab55718a.png";
-
-/***/ }),
-
 /***/ "./src/assets/images/clock.png":
 /*!*************************************!*\
   !*** ./src/assets/images/clock.png ***!
@@ -50911,25 +50900,25 @@ module.exports = __webpack_require__.p + "assets/b7f5e46db7740a08fd99.png";
 
 /***/ }),
 
-/***/ "./src/assets/images/flower.jpg":
+/***/ "./src/assets/images/first.webp":
 /*!**************************************!*\
-  !*** ./src/assets/images/flower.jpg ***!
+  !*** ./src/assets/images/first.webp ***!
   \**************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/484c12e63b231eb32800.jpg";
+module.exports = __webpack_require__.p + "assets/e8d223ae9264e2b20133.webp";
 
 /***/ }),
 
-/***/ "./src/assets/images/flower.png":
-/*!**************************************!*\
-  !*** ./src/assets/images/flower.png ***!
-  \**************************************/
+/***/ "./src/assets/images/fourth.webp":
+/*!***************************************!*\
+  !*** ./src/assets/images/fourth.webp ***!
+  \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/4ca4a8fad97201fe7bb0.png";
+module.exports = __webpack_require__.p + "assets/541e361c4886752ed980.webp";
 
 /***/ }),
 
@@ -51065,14 +51054,14 @@ module.exports = __webpack_require__.p + "assets/8ea0260071f3c8828120.png";
 
 /***/ }),
 
-/***/ "./src/assets/images/second2.jpg":
+/***/ "./src/assets/images/second.webp":
 /*!***************************************!*\
-  !*** ./src/assets/images/second2.jpg ***!
+  !*** ./src/assets/images/second.webp ***!
   \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/9110e431191a9d9c2303.jpg";
+module.exports = __webpack_require__.p + "assets/20245cca2942f58d1688.webp";
 
 /***/ }),
 
@@ -51084,6 +51073,17 @@ module.exports = __webpack_require__.p + "assets/9110e431191a9d9c2303.jpg";
 
 "use strict";
 module.exports = __webpack_require__.p + "assets/c02fb0e9c7007f50f109.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/third.webp":
+/*!**************************************!*\
+  !*** ./src/assets/images/third.webp ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/5430f1e3e15d4a7fb7af.webp";
 
 /***/ }),
 
